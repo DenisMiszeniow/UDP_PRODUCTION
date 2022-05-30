@@ -1,0 +1,47 @@
+
+.menu {
+    width: 100%;
+    background-color: hsl(237, 100%, 92%);
+    margin-top: 82px;
+    border-left: 2px solid #ba3535;
+    border-right: 2px solid #ba3535;
+    border-bottom: 2px solid #ba3535;
+    border-radius: 4px;
+    margin-left: -2px;
+}
+
+.menu ul {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.menu ul li { 
+    padding: 6px 0 0 20px; 
+    font-size: 18px; 
+    color: #191818;
+    
+}
+.menu ul li span {
+    cursor: pointer;
+}
+.menu ul li a {color: #191818; text-decoration: none;}
+
+.menu ul.submenu {
+    display: block;
+    
+    border-top: 2px solid #000;
+    border-right: 2px solid #000;
+    border-bottom: 2px solid #000;
+    border-radius: 4px;
+    background-color: #fff;
+    padding: 6px 20px 0 20px;
+}
+@media only screen and (max-width: 1004px) {
+    .menu ul.submenu{
+        width: 80%;
+    }
+}
+
+.menu ul.submenu li {
+    padding: 0 0 6px 20px;
+}

@@ -1,25 +1,19 @@
-import logo from './logo.svg';
 import './App.css';
+import TopHeader from './components/header/top_header/top_header';
+import MainHeader from './components/header/main_header/main_header';
+import { BrowserRouter } from 'react-router-dom';
+import ContentSide from './components/content/content_side';
 
-function App() {
+const App = () => {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+      <header>
+        <TopHeader />
+        <MainHeader />
       </header>
+      <ContentSide/>
     </div>
-  );
+  )
 }
 
 export default App;

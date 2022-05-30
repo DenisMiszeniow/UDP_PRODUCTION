@@ -1,0 +1,100 @@
+.header {
+    width: 1004px;
+    
+    display: grid;
+    grid-template-columns: 250px 1fr;
+}
+.header .navMedia {
+    
+    width: 98%;
+    margin: 20px 0 0 2%;
+}
+.header .navMedia img {
+    width: 100%;
+    margin: 0;
+}
+.header .logo {
+    margin-top: 20px;
+}
+
+@media only screen and (max-width: 1004px) {
+   
+    .header {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 150px 1fr;
+        height: 114px;
+        border: solid 0px #000;
+    }
+    .header .logo {
+        margin-top: 20px;
+        width: 100px;
+    }
+    .header .navMedia {
+        margin: 30px 0 0 0;
+        height: 80px;
+        width: 99%;
+        background: url();
+        background-color: rgb(216, 218, 255);
+        border: solid 2px #ba3535;
+        border-radius: 4px;
+        
+    }
+    .header .navMedia .mobileMenuIcon {
+        display: grid;
+        grid-template-columns: 1fr;
+        float: right;
+        width: 50px;
+        margin: 22px 30px 0 0;
+    }
+  
+    .header .navMedia .mobileMenuIcon div {
+        border: 1px solid rgb(58, 58, 58);
+        background-color: rgb(58, 58, 58);
+        border-radius: 3px;
+        height: 5px;
+        margin-top: 5px;
+    }
+    .header .navMedia img {
+        display: none;
+    }
+
+}
+
+.header .navMediaLeft {
+    margin: 10px 0 0 0;
+    height: 80px;
+    width: 99%;
+    background: url();
+    background-color: hsl(237, 100%, 92%);
+    border: solid 2px #ba3535;
+    border-radius: 4px;
+    
+}
+@media only screen and (max-width: 1004px) {
+    .header .navMediaLeft {
+        display: none;
+    }
+}
+.header .navMediaLeft a.desktopMenuIcon {
+    display: grid;
+    grid-template-columns: 1fr;
+    float: right;
+    width: 50px;
+    margin: 22px 30px 0 0;
+}
+
+
+
+.header .navMediaLeft a.desktopMenuIcon div {
+    border: 1px solid rgb(58, 58, 58);
+    background-color: rgb(58, 58, 58);
+    border-radius: 3px;
+    height: 5px;
+    margin-top: 5px;
+}
+@media only screen and (min-width: 1004px){
+    .mediaMenu {
+        display: none;
+    }
+}
