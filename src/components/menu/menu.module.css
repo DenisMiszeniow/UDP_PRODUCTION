@@ -8,6 +8,8 @@
     border-bottom: 2px solid #ba3535;
     border-radius: 4px;
     margin-left: -2px;
+    position: relative;
+    z-index: 1;
 }
 
 .menu ul {

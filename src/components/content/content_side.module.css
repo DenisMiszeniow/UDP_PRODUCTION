@@ -1,14 +1,4 @@
 .contentSide {
-    display: grid;
-    grid-template-rows: 1fr 100px;
-    border: 1px solid #000; 
-    align-items: start;
-}
-
-.contentSide .container{
-    align-self: start;
-}
-
-.contentSide .copyright{
-    align-self: end;
+    border: 1px solid #000;
+    margin-top: 20px;
 }

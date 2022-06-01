@@ -1,0 +1,13 @@
+.footer {
+    height: 41px; 
+    padding: 10px 0 0 0; 
+    text-align: center; 
+    background: #787def; 
+    width: 100%; 
+    margin: 25px auto 15px auto; 
+    font-size: 12px; 
+    color: #444;}
+
+.footer img {
+    vertical-align: -12px;
+}

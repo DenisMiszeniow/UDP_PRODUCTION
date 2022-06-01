@@ -12,10 +12,7 @@ const MainHeader = () => {
 			<div>
 				<a href="index.html" title="УКРДЕТАЛЬПРОМ"><img src={logo} className={styles.logo} width="250" alt="УКРДЕТАЛЬПРОМ" /></a>
 				<div className={styles.navMediaLeft}>
-					
-					
 					<a className={styles.desktopMenuIcon} href="#" onClick={() => setShow(!show)}>
-						
 						<div id="mbi-div1"></div>
 						<div id="mbi-div2"></div>
 						<div id="mbi-div3"></div>
@@ -26,7 +23,6 @@ const MainHeader = () => {
 			</div>
 			<div className={styles.navMedia}>
 				<img src={slideOne} />
-				
 					<a className={styles.mobileMenuIcon} href="#" onClick={() => mediaSetShow(!mediaShow)}>
 						<div id="mbi-div1"></div>
 						<div id="mbi-div2"></div>

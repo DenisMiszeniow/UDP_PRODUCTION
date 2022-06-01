@@ -1,0 +1,39 @@
+.productDiv {
+    
+    padding: 2%;
+    border: 1px solid rgb(80, 67, 67);
+    background-color: #fff;
+    border-radius: 4px;
+}
+.productDiv img {
+    display: block;
+    float: left;
+    margin-right: 20px;
+    border: 1px solid rgb(80, 67, 67);
+    border-radius: 4px;
+}
+@media only screen and (max-width: 600px) {
+    .productDiv img {
+        width: 100%;
+    }
+}
+.productDiv p {
+    font-size: 16px;
+    line-height: 2em;
+}
+.productDiv a {
+    text-decoration: none;
+}
+.productDiv a:hover {
+    text-decoration: underline;
+}
+
+.titleDiv {
+    
+    background: url(../../../images/headline_bg5.png) left bottom  no-repeat;
+    margin-bottom: 10px;
+}
+.titleDiv h3 {
+    padding-bottom: 5px;
+    margin: 0;
+}
