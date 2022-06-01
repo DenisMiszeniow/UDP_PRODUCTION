@@ -2,9 +2,9 @@ import styles from './main_header.module.css'
 import logo from '../../../images/logo.png'
 import slideOne from '../../../images/motoblok_slide.jpg'
 import { useState } from 'react'
-import Menu from '../../menu/menu'
+import { MenuContainer } from '../../menu/menu container'
 
-const MainHeader = () => {
+const MainHeader = (props) => {
 	const [show, setShow] = useState(false)
 	const [mediaShow, mediaSetShow] = useState(false)
 	return (
@@ -12,24 +12,24 @@ const MainHeader = () => {
 			<div>
 				<a href="index.html" title="УКРДЕТАЛЬПРОМ"><img src={logo} className={styles.logo} width="250" alt="УКРДЕТАЛЬПРОМ" /></a>
 				<div className={styles.navMediaLeft}>
-					<a className={styles.desktopMenuIcon} href="#" onClick={() => setShow(!show)}>
+					<span className={styles.desktopMenuIcon} onClick={() => setShow(!show)}>
 						<div id="mbi-div1"></div>
 						<div id="mbi-div2"></div>
 						<div id="mbi-div3"></div>
-					</a>
-					{show && <Menu />}
+					</span>
+					{show && <MenuContainer />}
 					
 				</div>
 			</div>
 			<div className={styles.navMedia}>
 				<img src={slideOne} />
-					<a className={styles.mobileMenuIcon} href="#" onClick={() => mediaSetShow(!mediaShow)}>
+					<span className={styles.mobileMenuIcon} onClick={() => mediaSetShow(!mediaShow)}>
 						<div id="mbi-div1"></div>
 						<div id="mbi-div2"></div>
 						<div id="mbi-div3"></div>
-					</a>
+					</span>
 				<div className={styles.mediaMenu}>
-					{mediaShow && <Menu />}
+					{mediaShow && <MenuContainer />}
 				</div>
 			</div>
 

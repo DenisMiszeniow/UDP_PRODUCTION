@@ -1,12 +1,14 @@
 import styles from './product.module.css'
+import { NavLink } from 'react-router-dom'
 
 const ProductsCategory = (props) => {
     return (
         <div>
             <div className={styles.productDiv}>
                 <div className={styles.titleDiv}>
-                    
-                    <a href='#'><h3>{props.title}</h3></a>
+                    <NavLink to={`/${props.section}`}>
+                        <h3>{props.title}</h3>
+                    </NavLink>
                 </div>
                 <div>
                     <a href='#'><img src={props.foto}/></a>
@@ -19,3 +21,5 @@ const ProductsCategory = (props) => {
     )
 }
 export default ProductsCategory
+
+// className={(navData) => navData.isActive ? styles.active : ""}

@@ -1,10 +1,13 @@
 import styles from './content_side.module.css'
-import { ProductsCategories } from './main_products_page/main_products_page_container'
+import { ProductsCategories } from './products_page/main_products_page_container'
+import { Route, Routes } from 'react-router-dom'
 
 const ContentSide = (props) => {
     return (
         <div className={styles.contentSide}>
-            <ProductsCategories/>
+            <Routes>
+                <Route path='/' element={<ProductsCategories/>}/>
+            </Routes>
         </div>
     )
 }

@@ -24,6 +24,11 @@
 .productDiv a {
     text-decoration: none;
 }
+
+.productDiv a.active {
+    text-decoration: blue;
+}
+
 .productDiv a:hover {
     text-decoration: underline;
 }
