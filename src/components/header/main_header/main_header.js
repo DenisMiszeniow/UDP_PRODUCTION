@@ -3,6 +3,7 @@ import logo from '../../../images/logo.png'
 import slideOne from '../../../images/motoblok_slide.jpg'
 import { useState } from 'react'
 import { MenuContainer } from '../../menu/menu container'
+import { NavLink } from 'react-router-dom'
 
 const MainHeader = (props) => {
 	const [show, setShow] = useState(false)
@@ -10,7 +11,7 @@ const MainHeader = (props) => {
 	return (
 		<div className={styles.header} >
 			<div>
-				<a href="index.html" title="УКРДЕТАЛЬПРОМ"><img src={logo} className={styles.logo} width="250" alt="УКРДЕТАЛЬПРОМ" /></a>
+				<NavLink to={'/'} title="УКРДЕТАЛЬПРОМ"><img src={logo} className={styles.logo} width="250" alt="УКРДЕТАЛЬПРОМ" /></NavLink>
 				<div className={styles.navMediaLeft}>
 					<span className={styles.desktopMenuIcon} onClick={() => setShow(!show)}>
 						<div id="mbi-div1"></div>

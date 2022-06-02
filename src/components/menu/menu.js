@@ -14,7 +14,7 @@ const Menu = (props) => {
     return (
         <div className={styles.menu}>
             <ul>
-                <li><a href="onas.html" title=" О нас">О Компании</a></li>
+                <li><NavLink to={'/onas'} title=" О нас">О Компании</NavLink></li>
                 <li onClick={onClickProducts}><span>Продукция</span></li>
                 {showProducts && <ul className={styles.submenu}>
                     {props.products.map(
@@ -41,9 +41,9 @@ const Menu = (props) => {
                     <li><a href='#' >Вальцовочные работы</a></li>
                     <li><a href='#' >Слесарные работы</a></li>
                 </ul>}
-                <li><a href="dostavkaoplata.html" title="Доставка и Оплата">Доставка и Оплата</a></li>
-                <li><a href="galereya.html" title="Фотогалерея">Фотогалерея</a></li>
-                <li><a href="kontakt.html" title="Контакты">Контакты</a></li>
+                <li><NavLink to={'/dostavkaoplata'} title="Доставка и Оплата">Доставка и Оплата</NavLink></li>
+                <li><NavLink to={'/galereya'} title="Фотогалерея">Фотогалерея</NavLink></li>
+                <li><NavLink to={'/kontakt'} title="Контакты">Контакты</NavLink></li>
             </ul>
         </div>
     )
