@@ -6,8 +6,11 @@
     margin-bottom: 10px;
 }
 .productDiv .container {
-    
+    display: grid;
+    grid-template-columns: minmax(100px, 300px) 1fr;
+    column-gap: 30px;
 }
+
 .productDiv img {
     display: block;
     float: left;
@@ -18,6 +21,9 @@
 @media only screen and (max-width: 600px) {
     .productDiv img {
         width: 100%;
+    }
+    .productDiv .container {
+        grid-template-columns: 1fr;
     }
 }
 .productDiv p {

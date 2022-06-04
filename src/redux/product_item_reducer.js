@@ -11,7 +11,16 @@ const initialState = {
         {
             id: 1,
             productName: 'ГРУНТОЗАЦЕП УНИВЕРСАЛЬНЫЙ 560х150; 450x150; 380x150',
-            productPicture: gruntozacepUniversal560,
+            productPicture: 'http://ukrdetalprom.com.ua/src/images/preview/gruntozacep_prev.jpg',
+            productPictureHD: [
+                'http://ukrdetalprom.com.ua/src/images/foto_HD/gruntozacepy/IMG_7301.JPG',
+                'http://ukrdetalprom.com.ua/src/images/foto_HD/gruntozacepy/IMG_7302.JPG',
+                'http://ukrdetalprom.com.ua/src/images/foto_HD/gruntozacepy/IMG_7302.JPG',
+                'http://ukrdetalprom.com.ua/src/images/foto_HD/gruntozacepy/IMG_7305.JPG',
+                'http://ukrdetalprom.com.ua/src/images/foto_HD/gruntozacepy/IMG_7687.JPG',
+                'http://ukrdetalprom.com.ua/src/images/foto_HD/gruntozacepy/IMG_7690.JPG',
+                'http://ukrdetalprom.com.ua/src/images/foto_HD/gruntozacepy/IMG_7695.JPG'
+            ],
             productDiscription: {
                 discriotionText: 'Грунтозацепы используются при работе культиватора или мотоблока с дополнительным навесным оборудованием, утяжеляют мотоблок (культиватор) и не допускают пробуксовки колес на грунте. Прочность увеличена в 6 раз.',
                 techData: [
@@ -37,7 +46,14 @@ const initialState = {
         {
             id: 2,
             productName: 'СЦЕПКИ УНИВЕРСАЛЬНЫЕ',
-            productPicture: scepkaUniversal,
+            productPicture: 'http://ukrdetalprom.com.ua/src//images/preview/scepka_prev.jpg',
+            productPictureHD: [
+                'http://ukrdetalprom.com.ua/src/images/foto_HD/scepki/IMG_7274.JPG',
+                'http://ukrdetalprom.com.ua/src/images/foto_HD/scepki/IMG_7275.JPG',
+                'http://ukrdetalprom.com.ua/src/images/foto_HD/scepki/IMG_7276.JPG',
+                'http://ukrdetalprom.com.ua/src/images/foto_HD/scepki/IMG_7277.JPG',
+                'http://ukrdetalprom.com.ua/src/images/foto_HD/scepki/IMG_7285.JPG'
+            ],
             productDiscription: {
                 discriotionText: 'Сцепки одинарная, двойная, тройная имеют болтовой зажим и регулировку. Для мотоблоков и культиваторов Зубр, Аврора, Кентавр, Forte, Zirka, Wtima, Rotex, Добрыня, Заря. Используется для агрегатирования и регулировки различного навесного оборудования, такого как: плоскорезы, окучники, картофелекопалки и т.д.',
                 techData: [
@@ -65,7 +81,23 @@ const initialState = {
         {
             id: 1,
             productName: 'Плуг ПН 225 У',
-            productPicture: plugPn225U,
+            productPicture: 'http://ukrdetalprom.com.ua/src/images/preview/plug_prev.jpg',
+            productPictureHD: [
+                'http://ukrdetalprom.com.ua/src/images/foto_HD/plug/IMG_7308.JPG',
+                'http://ukrdetalprom.com.ua/src/images/foto_HD/plug/IMG_7309.JPG',
+                'http://ukrdetalprom.com.ua/src/images/foto_HD/plug/IMG_7310.JPG',
+                'http://ukrdetalprom.com.ua/src/images/foto_HD/plug/IMG_7311.JPG',
+                'http://ukrdetalprom.com.ua/src/images/foto_HD/plug/IMG_7313.JPG',
+                'http://ukrdetalprom.com.ua/src/images/foto_HD/plug/IMG_7314.JPG',
+                'http://ukrdetalprom.com.ua/src/images/foto_HD/plug/IMG_7315.JPG',
+                'http://ukrdetalprom.com.ua/src/images/foto_HD/plug/IMG_7318.JPG',
+                'http://ukrdetalprom.com.ua/src/images/foto_HD/plug/IMG_7320.JPG',
+                'http://ukrdetalprom.com.ua/src/images/foto_HD/plug/IMG_7322.JPG',
+                'http://ukrdetalprom.com.ua/src/images/foto_HD/plug/IMG_7324.JPG',
+                'http://ukrdetalprom.com.ua/src/images/foto_HD/plug/IMG_7331.JPG',
+                'http://ukrdetalprom.com.ua/src/images/foto_HD/plug/IMG_7326.JPG',
+                'http://ukrdetalprom.com.ua/src/images/foto_HD/plug/IMG_7323.JPG'
+            ],
             productDiscription: {
                 discriotionText: 'Плуг навесной ПН 225 У - новый двухкорпусный (высота корпуса 500 мм) плуг с усиленной рамой. Имеет возможность точной регулировки, улучшеный корпус, способствующий хорошему оборачиванию почвенного пласта. Корпус плуга к главной балке рамы крепится на трех болтах.Положение корпусов плуга относительно рамы и друг к другу отрегулировано на заводе и не требует дополнительных регулировок.',
                 techData: [
@@ -120,7 +152,23 @@ const initialState = {
         {
             id: 2,
             productName: 'Плуг ПН 325 У',
-            productPicture: '../images/preview/plug_3_prev.jpg',
+            productPicture: 'http://ukrdetalprom.com.ua/src/images/preview/plug_3_prev.jpg',
+            productPictureHD: [
+                'http://ukrdetalprom.com.ua/src/images/foto_HD/plug/IMG_7308.JPG',
+                'http://ukrdetalprom.com.ua/src/images/foto_HD/plug/IMG_7309.JPG',
+                'http://ukrdetalprom.com.ua/src/images/foto_HD/plug/IMG_7310.JPG',
+                'http://ukrdetalprom.com.ua/src/images/foto_HD/plug/IMG_7311.JPG',
+                'http://ukrdetalprom.com.ua/src/images/foto_HD/plug/IMG_7313.JPG',
+                'http://ukrdetalprom.com.ua/src/images/foto_HD/plug/IMG_7314.JPG',
+                'http://ukrdetalprom.com.ua/src/images/foto_HD/plug/IMG_7315.JPG',
+                'http://ukrdetalprom.com.ua/src/images/foto_HD/plug/IMG_7318.JPG',
+                'http://ukrdetalprom.com.ua/src/images/foto_HD/plug/IMG_7320.JPG',
+                'http://ukrdetalprom.com.ua/src/images/foto_HD/plug/IMG_7322.JPG',
+                'http://ukrdetalprom.com.ua/src/images/foto_HD/plug/IMG_7324.JPG',
+                'http://ukrdetalprom.com.ua/src/images/foto_HD/plug/IMG_7331.JPG',
+                'http://ukrdetalprom.com.ua/src/images/foto_HD/plug/IMG_7326.JPG',
+                'http://ukrdetalprom.com.ua/src/images/foto_HD/plug/IMG_7323.JPG'
+            ],
             productDiscription: {
                 discriotionText: 'Плуг навесной ПН 325 У - новый трехкорпусный (высота корпуса 500 мм) плуг с усиленной рамой. Имеет возможность точной регулировки, улучшеный корпус, способствующий хорошему оборачиванию почвенного пласта. Корпус плуга к главной балке рамы крепится на трех болтах.Положение корпусов плуга относительно рамы и друг к другу отрегулировано на заводе и не требует дополнительных регулировок.',
                 techData: [
