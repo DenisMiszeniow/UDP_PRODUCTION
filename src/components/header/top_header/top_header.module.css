@@ -20,6 +20,10 @@
         color: brown;
     }
 	@media only screen and (max-width: 1004px){
-		.novigate_block {visibility: hidden; height: 0; width: 0; height: 0; padding: 0; margin: 0;}
-		.novigate_block ul {display: none;}
+		/* .novigateBlock {visibility: hidden; height: 0; width: 0; height: 0; padding: 0; margin: 0;}
+		.novigateBlock ul {display: none;} */
+        .novigateBlock {
+            display: none;
+            margin: 0;
+        }
 	}
