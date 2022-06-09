@@ -11,15 +11,14 @@ const initialState = {
         {
             id: 1,
             productName: 'ГРУНТОЗАЦЕП УНИВЕРСАЛЬНЫЙ 560х150; 450x150; 380x150',
-            productPicture: 'http://ukrdetalprom.com.ua/src/images/preview/gruntozacep_prev.jpg',
-            productPictureHD: [
-                'http://ukrdetalprom.com.ua/src/images/foto_HD/gruntozacepy/IMG_7301.JPG',
-                'http://ukrdetalprom.com.ua/src/images/foto_HD/gruntozacepy/IMG_7302.JPG',
-                'http://ukrdetalprom.com.ua/src/images/foto_HD/gruntozacepy/IMG_7302.JPG',
-                'http://ukrdetalprom.com.ua/src/images/foto_HD/gruntozacepy/IMG_7305.JPG',
-                'http://ukrdetalprom.com.ua/src/images/foto_HD/gruntozacepy/IMG_7687.JPG',
-                'http://ukrdetalprom.com.ua/src/images/foto_HD/gruntozacepy/IMG_7690.JPG',
-                'http://ukrdetalprom.com.ua/src/images/foto_HD/gruntozacepy/IMG_7695.JPG'
+            productPicture: [
+                {image: 'http://ukrdetalprom.com.ua/src/images/foto_HD/gruntozacepy/gruntozacepy_1.JPG', alt: 'Грунтозацеп Универсальный Укрдетальпром'},
+                {image: 'http://ukrdetalprom.com.ua/src/images/foto_HD/gruntozacepy/gruntozacepy_2.JPG', alt: 'Грунтозацеп Универсальный Укрдетальпром'},
+                {image: 'http://ukrdetalprom.com.ua/src/images/foto_HD/gruntozacepy/gruntozacepy_3.JPG', alt: 'Грунтозацеп Универсальный Укрдетальпром'},
+                {image: 'http://ukrdetalprom.com.ua/src/images/foto_HD/gruntozacepy/gruntozacepy_4.JPG', alt: 'Грунтозацеп Универсальный Укрдетальпром'},
+                {image: 'http://ukrdetalprom.com.ua/src/images/foto_HD/gruntozacepy/gruntozacepy_5.JPG', alt: 'Грунтозацеп Универсальный Укрдетальпром'},
+                {image: 'http://ukrdetalprom.com.ua/src/images/foto_HD/gruntozacepy/gruntozacepy_6.JPG', alt: 'Грунтозацеп Универсальный Укрдетальпром'},
+                {image: 'http://ukrdetalprom.com.ua/src/images/foto_HD/gruntozacepy/gruntozacepy_7.JPG', alt: 'Грунтозацеп Универсальный Укрдетальпром'}
             ],
             productDiscription: {
                 discriotionText: 'Грунтозацепы используются при работе культиватора или мотоблока с дополнительным навесным оборудованием, утяжеляют мотоблок (культиватор) и не допускают пробуксовки колес на грунте. Прочность увеличена в 6 раз.',
@@ -46,13 +45,14 @@ const initialState = {
         {
             id: 2,
             productName: 'СЦЕПКИ УНИВЕРСАЛЬНЫЕ',
-            productPicture: 'http://ukrdetalprom.com.ua/src//images/preview/scepka_prev.jpg',
-            productPictureHD: [
-                'http://ukrdetalprom.com.ua/src/images/foto_HD/scepki/IMG_7274.JPG',
-                'http://ukrdetalprom.com.ua/src/images/foto_HD/scepki/IMG_7275.JPG',
-                'http://ukrdetalprom.com.ua/src/images/foto_HD/scepki/IMG_7276.JPG',
-                'http://ukrdetalprom.com.ua/src/images/foto_HD/scepki/IMG_7277.JPG',
-                'http://ukrdetalprom.com.ua/src/images/foto_HD/scepki/IMG_7285.JPG'
+            productPicture: [
+                {image: 'http://ukrdetalprom.com.ua/src/images/foto_HD/gruntozacepy/gruntozacepy_1.JPG', alt: 'Грунтозацеп Универсальный Укрдетальпром'},
+                {image: 'http://ukrdetalprom.com.ua/src/images/foto_HD/gruntozacepy/gruntozacepy_2.JPG', alt: 'Грунтозацеп Универсальный Укрдетальпром'},
+                {image: 'http://ukrdetalprom.com.ua/src/images/foto_HD/gruntozacepy/gruntozacepy_3.JPG', alt: 'Грунтозацеп Универсальный Укрдетальпром'},
+                {image: 'http://ukrdetalprom.com.ua/src/images/foto_HD/gruntozacepy/gruntozacepy_4.JPG', alt: 'Грунтозацеп Универсальный Укрдетальпром'},
+                {image: 'http://ukrdetalprom.com.ua/src/images/foto_HD/gruntozacepy/gruntozacepy_5.JPG', alt: 'Грунтозацеп Универсальный Укрдетальпром'},
+                {image: 'http://ukrdetalprom.com.ua/src/images/foto_HD/gruntozacepy/gruntozacepy_6.JPG', alt: 'Грунтозацеп Универсальный Укрдетальпром'},
+                {image: 'http://ukrdetalprom.com.ua/src/images/foto_HD/gruntozacepy/gruntozacepy_7.JPG', alt: 'Грунтозацеп Универсальный Укрдетальпром'}
             ],
             productDiscription: {
                 discriotionText: 'Сцепки одинарная, двойная, тройная имеют болтовой зажим и регулировку. Для мотоблоков и культиваторов Зубр, Аврора, Кентавр, Forte, Zirka, Wtima, Rotex, Добрыня, Заря. Используется для агрегатирования и регулировки различного навесного оборудования, такого как: плоскорезы, окучники, картофелекопалки и т.д.',
@@ -81,8 +81,7 @@ const initialState = {
         {
             id: 1,
             productName: 'Плуг ПН 225 У',
-            productPicture: 'http://ukrdetalprom.com.ua/src/images/preview/plug_prev.jpg',
-            productPictureHD: [
+            productPicture: [
                 'http://ukrdetalprom.com.ua/src/images/foto_HD/plug/IMG_7308.JPG',
                 'http://ukrdetalprom.com.ua/src/images/foto_HD/plug/IMG_7309.JPG',
                 'http://ukrdetalprom.com.ua/src/images/foto_HD/plug/IMG_7310.JPG',

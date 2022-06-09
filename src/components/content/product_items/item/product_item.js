@@ -2,6 +2,9 @@ import React from 'react'
 import styles from './product_item.module.css'
 // import 'react-image-gallery/styles/css/image-gallery.css'
 import 'react-image-gallery/styles/css/image-gallery.css'
+import { Carousel } from 'react-responsive-carousel'
+import { ItemGalleryCarousel } from './item_image_carousel'
+
 
 const ProductItem = (props) => {
 
@@ -13,7 +16,7 @@ const ProductItem = (props) => {
                 </div>
                 <div className={styles.container}>
                     <div>
-                        <img src={props.foto} />
+                        <ItemGalleryCarousel image={props.foto}/>
                     </div>
                     <div>
                         <p>
