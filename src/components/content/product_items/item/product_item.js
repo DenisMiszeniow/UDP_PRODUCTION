@@ -1,5 +1,9 @@
 import styles from './product_item.module.css'
+<<<<<<< HEAD
 // import 'react-image-gallery/styles/css/image-gallery.css'
+=======
+import 'react-image-gallery/styles/css/image-gallery.css'
+>>>>>>> ebf7654daea58aa212bf827604c75f39b8641664
 
 const ProductItem = (props) => {
 
