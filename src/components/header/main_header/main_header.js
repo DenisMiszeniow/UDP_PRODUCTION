@@ -1,6 +1,6 @@
 import styles from './main_header.module.css'
 import logo from '../../../images/logo.png'
-
+import React from 'react'
 import { useState } from 'react'
 import { MenuContainer } from '../../menu/menu container'
 import { NavLink } from 'react-router-dom'

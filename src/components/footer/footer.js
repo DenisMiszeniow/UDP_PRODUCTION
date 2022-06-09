@@ -1,3 +1,4 @@
+import React from 'react'
 import footerLogo from '../../images/logo.png'
 import styles from './footer.module.css'
 

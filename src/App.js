@@ -1,3 +1,4 @@
+import React from 'react'
 import './App.css';
 import TopHeader from './components/header/top_header/top_header';
 import MainHeader from './components/header/main_header/main_header';

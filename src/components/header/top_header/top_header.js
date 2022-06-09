@@ -1,3 +1,4 @@
+import React from 'react'
 import styles from './top_header.module.css'
 import novIcon1 from '../../../images/nav_icon1.png'
 import novIcon2 from '../../../images/nav_icon2.png'

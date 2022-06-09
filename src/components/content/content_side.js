@@ -1,3 +1,4 @@
+import React from 'react'
 import styles from './content_side.module.css'
 import { ProductsCategories } from './products_page/main_products_page_container'
 import { Route, Routes } from 'react-router-dom'

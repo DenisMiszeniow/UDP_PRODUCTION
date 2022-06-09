@@ -1,4 +1,4 @@
-
+import React from "react"
 import { connect } from "react-redux"
 import MainProductsPage from "./main_products_page"
 import ProductsCategory from "./product/product"
