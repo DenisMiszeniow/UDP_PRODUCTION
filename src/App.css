@@ -2,8 +2,6 @@
   width: 1004px;
   height: 100vh;
   margin: 0 auto;
-  display: grid;
-  grid-template-rows: auto 1fr auto;
 }
 	@media only screen and (max-width: 1004px){
 		.App {

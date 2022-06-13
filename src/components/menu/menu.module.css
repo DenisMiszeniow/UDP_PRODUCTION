@@ -8,8 +8,8 @@
     border-bottom: 2px solid #ba3535;
     border-radius: 4px;
     margin-left: -2px;
-    position: relative;
-    z-index: 999;
+    /* position: relative;
+    z-index: 1; */
     transform: translateY(82px);
     animation: ani 500ms forwards;
     

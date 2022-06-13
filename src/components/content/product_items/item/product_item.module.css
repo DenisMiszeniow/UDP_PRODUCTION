@@ -1,72 +1,57 @@
-
-/*---------------------container block------------------*/
 .productDiv {
+    padding: 2%;
     border: 1px solid rgb(80, 67, 67);
     background-color: #fff;
     border-radius: 4px;
     margin-bottom: 10px;
+}
+.productDiv .container {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: minmax(100px, 300px) 1fr;
+    column-gap: 30px;
+}
+
+.productDiv img {
+    display: block;
+    float: left;
+    margin-right: 20px;
+    border: 1px solid rgb(80, 67, 67);
+    border-radius: 4px;
+}
+@media only screen and (max-width: 600px) {
+    .productDiv img {
+        width: 100%;
+    }
+    .productDiv .container {
+        grid-template-columns: 1fr;
+    }
+}
+.productDiv p {
+    font-size: 16px;
+    line-height: 2em;
+}
+
+.productDiv span {
+    padding-bottom: 5px;;
 }
 .productDiv a {
     text-decoration: none;
 }
+
 .productDiv a.active {
     text-decoration: blue;
 }
+
 .productDiv a:hover {
     text-decoration: underline;
 }
 
-
-/* ------------------title block----------------------- */
-.titleDiv { 
+.titleDiv {
+    
     background: url(../../../../images/headline_bg5.png) left bottom  no-repeat;
     margin-bottom: 10px;
-   grid-row: 1/2;
 }
 .titleDiv h3 {
     padding-bottom: 5px;
     margin: 0;
-}
-
-/*------------------Image block-------------------------*/
-.productDiv .imageContainer {
-    width: 100%;
-}
-.productDiv .imageContainer div {
-    width: 100%;
-}
-.productDiv .imageContainer img {
-    
-    width: 100%;
-}
-
-@media only screen and (max-width: 600px) {
-    .productDiv imageContainer {
-        width: 100%;
-    }
-    /* .productDiv img {
-        width: 100%;
-    } */
-}
-
-/* ----------------------Discription block--------------------*/
-.discriptionContainer {
-    
- 
-}
-.discriptionContainer p{
-    font-size: 16px;
-    line-height: 2em;
-}
-.discriptionContainer ul li {
-    display: block;
-    padding: 10px 0 0 0;
-    
-}
-@media only screen and (max-width: 600px) {
-    .productDiv .discriptionContainer {
-       
-    }
 }

@@ -9,31 +9,7 @@ import slideThree from '../../../images/izdeliya-iz-provoloki_slide.jpg'
 class BannerCarousel extends Component {
     render() {
         return (
-            <Carousel autoPlay={true} infiniteLoop={true} showThumbs={true} showIndicators={false} showStatus={false} >
-                <div>
-                    <img src={slideOne} />
-                   
-                </div>
-                <div>
-                    <img src={slideTwo} />
-                    
-                </div>
-                <div>
-                    <img src={slideThree} />
-                    
-                </div>
-                <div>
-                    <img src={slideOne} />
-                   
-                </div>
-                <div>
-                    <img src={slideTwo} />
-                    
-                </div>
-                <div>
-                    <img src={slideThree} />
-                    
-                </div>
+            <Carousel autoPlay={true} infiniteLoop={true} showThumbs={false} showIndicators={false} showStatus={false} >
                 <div>
                     <img src={slideOne} />
                    
