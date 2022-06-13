@@ -18,6 +18,10 @@ const initialState = {
                 {image: 'http://ukrdetalprom.com.ua/src/images/foto_HD/gruntozacepy/gruntozacepy_4.JPG', alt: 'Грунтозацеп Универсальный Укрдетальпром'},
                 {image: 'http://ukrdetalprom.com.ua/src/images/foto_HD/gruntozacepy/gruntozacepy_5.JPG', alt: 'Грунтозацеп Универсальный Укрдетальпром'},
                 {image: 'http://ukrdetalprom.com.ua/src/images/foto_HD/gruntozacepy/gruntozacepy_6.JPG', alt: 'Грунтозацеп Универсальный Укрдетальпром'},
+                {image: 'http://ukrdetalprom.com.ua/src/images/foto_HD/gruntozacepy/gruntozacepy_7.JPG', alt: 'Грунтозацеп Универсальный Укрдетальпром'},
+                {image: 'http://ukrdetalprom.com.ua/src/images/foto_HD/gruntozacepy/gruntozacepy_4.JPG', alt: 'Грунтозацеп Универсальный Укрдетальпром'},
+                {image: 'http://ukrdetalprom.com.ua/src/images/foto_HD/gruntozacepy/gruntozacepy_5.JPG', alt: 'Грунтозацеп Универсальный Укрдетальпром'},
+                {image: 'http://ukrdetalprom.com.ua/src/images/foto_HD/gruntozacepy/gruntozacepy_6.JPG', alt: 'Грунтозацеп Универсальный Укрдетальпром'},
                 {image: 'http://ukrdetalprom.com.ua/src/images/foto_HD/gruntozacepy/gruntozacepy_7.JPG', alt: 'Грунтозацеп Универсальный Укрдетальпром'}
             ],
             productDiscription: {
