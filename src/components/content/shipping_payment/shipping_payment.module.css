@@ -1,0 +1,20 @@
+.aboutUsContainer {
+    width: 100%;
+    
+    
+    display: grid;
+    gap: 10px;
+}
+.aboutUsContainer div {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #000;
+    border-radius: 5px;
+}
+.aboutUsContainer h3 {
+    font-size: 20px;
+}
+.aboutUsContainer p {
+    font-size: 16px;
+    line-height: 2em;
+}

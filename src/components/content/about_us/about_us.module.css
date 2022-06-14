@@ -1,0 +1,16 @@
+.aboutUsContainer {
+    width: 100%;
+    border: 1px solid #000;
+    border-radius: 5px;
+    background-color: #fff;
+}
+.aboutUsContainer div {
+    padding: 20px;
+}
+.aboutUsContainer h3 {
+    font-size: 20px;
+}
+.aboutUsContainer p {
+    font-size: 16px;
+    line-height: 2em;
+}
