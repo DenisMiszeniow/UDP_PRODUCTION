@@ -4,6 +4,7 @@ import { ProductsCategories } from './products_page/main_products_page_container
 import { Route, Routes } from 'react-router-dom'
 import { MotoblockItems, TractorItems, WireItems } from './product_items/product_item_container'
 
+
 const ContentSide = (props) => {
     return (
         <div className={styles.contentSide}>

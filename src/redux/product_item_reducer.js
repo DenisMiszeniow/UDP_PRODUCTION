@@ -1,4 +1,5 @@
-// const SET_PRODUCT_ITEM_TYPE = 'SET_PRODUCT_ITEM_TYPE'
+
+const SET_MOTOBLOCK_UNITS = 'SET_MOTOBLOCK_UNITS'
 
 const initialState = {
     productItemsMotoblock: [
@@ -404,16 +405,15 @@ const initialState = {
     ]
 }
 
-export const productItemReducer = (state = initialState) => {
-    return state
-    // switch(action.type) {
-    //     case SET_PRODUCTS_TYPE: {
-    //         return (
-    //             {...state, ...state.productsPages}
-    //         )
-    //     }
-    //     default: return state
-    // }
+export const productItemReducer = (state = initialState, action) => {
+    switch(action.type) {
+        case SET_MOTOBLOCK_UNITS: {
+            return (
+                {...state, productItemsMotoblock: [...action.motoblockItems]}
+            )
+        }
+        default: return state
+    }
 }
 
-// export const setProductsPageAC = (categories) => ({type: SET_PRODUCTS_TYPE, categories})
+export const motoblockItemsAC = (motoblockItems) => ({type: SET_MOTOBLOCK_UNITS, motoblockItems})

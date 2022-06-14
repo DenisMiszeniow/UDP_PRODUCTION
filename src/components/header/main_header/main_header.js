@@ -9,12 +9,12 @@ import BannerCarousel from './carousel_banner'
 const MainHeader = (props) => {
 const [show, setShow] = useState(false)
 const handleClick = () => {
-	setShow(!show)
+	if (show) setShow(false)
 }
 	return (
 		<div className={styles.header} >
 			<div>
-				<NavLink to={'/'} title="УКРДЕТАЛЬПРОМ"><img src={logo} className={styles.logo} width="250" alt="УКРДЕТАЛЬПРОМ" /></NavLink>
+				<NavLink to={'/'} title="УКРДЕТАЛЬПРОМ"><img src={logo} onClick={handleClick} className={styles.logo} width="250" alt="УКРДЕТАЛЬПРОМ" /></NavLink>
 				<div className={styles.navMediaLeft}>
 					<span className={styles.desktopMenuIcon} onClick={() => setShow(!show)}>
 						<div id="mbi-div1"></div>
