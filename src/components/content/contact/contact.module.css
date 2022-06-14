@@ -1,0 +1,79 @@
+.contactContainer {
+    width: 100%;
+}
+
+.contactContainer .dataFormContainer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    
+}
+
+@media only screen and (max-width: 700px) {
+    .contactContainer .dataFormContainer {
+        grid-template-columns: 1fr;
+    }
+}
+.contactContainer .dataFormContainer p {
+    margin: 15px 0 3px 0;
+}
+
+.contactContainer .dataFormContainer div {
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #000;
+    border-radius: 5px;
+}
+
+.contactText {
+    font-family: Verdana;
+    font-size: 16px;
+}
+
+.contactText h3 {
+    font-size: 18px;
+    font-weight: bold;
+    padding: 2px 0 5px 0;
+    margin: 0;
+}
+
+.contactTextList {
+    padding: 0;
+}
+
+.contactTextList li {
+    background: url(../../../images/details_bg2.png) left top no-repeat;
+    padding: 10px 0 0 0;
+}
+
+.contactTextList li h5 {
+    margin: 0;
+    font-size: 14px;
+}
+
+.callBackText {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.contactContainer .dataFormContainer div form ul {
+    padding: 0;
+}
+
+.input_1 {
+    width: 100%;
+    height: 20px;
+}
+
+.textArea {
+    width: 100%;
+    height: 97px;
+}
+
+.mapContainer {
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #000;
+    border-radius: 5px;
+    margin: 20px 0 20px 0;
+}

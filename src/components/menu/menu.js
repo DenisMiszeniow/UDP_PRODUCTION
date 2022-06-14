@@ -21,7 +21,7 @@ const Menu = (props) => {
     return (
         <div className={styles.menu}>
             <ul>
-                <li><NavLink to={'/onas'} onClick={closeMenu} title=" О нас">О Компании</NavLink></li>
+                <li><NavLink to={'/onas'} onClick={closeMenu} className={(navData) => navData.isActive ? styles.active : ""} title=" О нас">О Компании</NavLink></li>
                 <li onClick={onClickProducts}><span>Продукция</span></li>
                 {showProducts && <ul className={styles.submenu}>
                     {props.products.map(
@@ -47,9 +47,8 @@ const Menu = (props) => {
                     <li><a href='#' >Вальцовочные работы</a></li>
                     <li><a href='#' >Слесарные работы</a></li>
                 </ul>}
-                <li><NavLink to={'/dostavkaoplata'} onClick={closeMenu} title="Доставка и Оплата">Доставка и Оплата</NavLink></li>
-                <li><NavLink to={'/galereya'} onClick={closeMenu} title="Фотогалерея">Фотогалерея</NavLink></li>
-                <li><NavLink to={'/kontakt'} onClick={closeMenu} title="Контакты">Контакты</NavLink></li>
+                <li><NavLink to={'/dostavkaoplata'} onClick={closeMenu} className={(navData) => navData.isActive ? styles.active : ""} title="Доставка и Оплата">Доставка и Оплата</NavLink></li>
+                <li><NavLink to={'/kontakt'} onClick={closeMenu} className={(navData) => navData.isActive ? styles.active : ""} title="Контакты">Контакты</NavLink></li>
             </ul>
         </div>
     )
