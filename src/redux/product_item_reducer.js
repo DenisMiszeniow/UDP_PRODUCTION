@@ -1,10 +1,4 @@
-import plugPn225U from '../images/preview/plug_prev.jpg'
-import gruntozacepUniversal560 from '../images/preview/gruntozacep_prev.jpg'
-import scepkaUniversal from '../images/preview/scepka_prev.jpg'
-import korzinaUniversal from '../images/preview/korzina_prev.jpg'
-
-
-const SET_PRODUCT_ITEM_TYPE = 'SET_PRODUCT_ITEM_TYPE'
+// const SET_PRODUCT_ITEM_TYPE = 'SET_PRODUCT_ITEM_TYPE'
 
 const initialState = {
     productItemsMotoblock: [
