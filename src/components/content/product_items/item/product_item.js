@@ -33,6 +33,7 @@ const ProductItem = (props) => {
                                                                     </li>)
                         }
                         </ul>
+                        <b>Гарантия производителя: {props.discription.waranty} месяца</b>
                     </div>
                 </div>
             </div>

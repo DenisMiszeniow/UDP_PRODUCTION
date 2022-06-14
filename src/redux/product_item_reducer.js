@@ -16,9 +16,7 @@ const initialState = {
                 {image: 'http://ukrdetalprom.com.ua/src/images/foto_HD/gruntozacepy/gruntozacepy_2.JPG', alt: 'Грунтозацеп Универсальный Укрдетальпром'},
                 {image: 'http://ukrdetalprom.com.ua/src/images/foto_HD/gruntozacepy/gruntozacepy_3.JPG', alt: 'Грунтозацеп Универсальный Укрдетальпром'},
                 {image: 'http://ukrdetalprom.com.ua/src/images/foto_HD/gruntozacepy/gruntozacepy_4.JPG', alt: 'Грунтозацеп Универсальный Укрдетальпром'},
-                {image: 'http://ukrdetalprom.com.ua/src/images/foto_HD/gruntozacepy/gruntozacepy_5.JPG', alt: 'Грунтозацеп Универсальный Укрдетальпром'},
-                {image: 'http://ukrdetalprom.com.ua/src/images/foto_HD/gruntozacepy/gruntozacepy_6.JPG', alt: 'Грунтозацеп Универсальный Укрдетальпром'},
-                {image: 'http://ukrdetalprom.com.ua/src/images/foto_HD/gruntozacepy/gruntozacepy_7.JPG', alt: 'Грунтозацеп Универсальный Укрдетальпром'}
+                {image: 'http://ukrdetalprom.com.ua/src/images/foto_HD/gruntozacepy/gruntozacepy_5.JPG', alt: 'Грунтозацеп Универсальный Укрдетальпром'}
             ],
             productDiscription: {
                 discriotionText: 'Грунтозацепы используются при работе культиватора или мотоблока с дополнительным навесным оборудованием, утяжеляют мотоблок (культиватор) и не допускают пробуксовки колес на грунте. Прочность увеличена в 6 раз.',
@@ -39,20 +37,20 @@ const initialState = {
                         DataName: 'Производитель',
                         DataParameter: 'OOO УКРДЕТАЛЬПРОМ'
                     }
-                ]
+                ],
+                waranty: 24
             }
         },
         {
             id: 2,
             productName: 'СЦЕПКИ УНИВЕРСАЛЬНЫЕ',
             productPicture: [
-                {image: 'http://ukrdetalprom.com.ua/src/images/foto_HD/gruntozacepy/gruntozacepy_1.JPG', alt: 'Грунтозацеп Универсальный Укрдетальпром'},
-                {image: 'http://ukrdetalprom.com.ua/src/images/foto_HD/gruntozacepy/gruntozacepy_2.JPG', alt: 'Грунтозацеп Универсальный Укрдетальпром'},
-                {image: 'http://ukrdetalprom.com.ua/src/images/foto_HD/gruntozacepy/gruntozacepy_3.JPG', alt: 'Грунтозацеп Универсальный Укрдетальпром'},
-                {image: 'http://ukrdetalprom.com.ua/src/images/foto_HD/gruntozacepy/gruntozacepy_4.JPG', alt: 'Грунтозацеп Универсальный Укрдетальпром'},
-                {image: 'http://ukrdetalprom.com.ua/src/images/foto_HD/gruntozacepy/gruntozacepy_5.JPG', alt: 'Грунтозацеп Универсальный Укрдетальпром'},
-                {image: 'http://ukrdetalprom.com.ua/src/images/foto_HD/gruntozacepy/gruntozacepy_6.JPG', alt: 'Грунтозацеп Универсальный Укрдетальпром'},
-                {image: 'http://ukrdetalprom.com.ua/src/images/foto_HD/gruntozacepy/gruntozacepy_7.JPG', alt: 'Грунтозацеп Универсальный Укрдетальпром'}
+                {image: 'http://ukrdetalprom.com.ua/src/images/foto_HD/scepki/scepki_1.JPG', alt: 'Сцепки Универсальные Укрдетальпром'},
+                {image: 'http://ukrdetalprom.com.ua/src/images/foto_HD/scepki/scepki_2.JPG', alt: 'Сцепки Универсальные Укрдетальпром'},
+                {image: 'http://ukrdetalprom.com.ua/src/images/foto_HD/scepki/scepki_3.JPG', alt: 'Сцепки Универсальные Укрдетальпром'},
+                {image: 'http://ukrdetalprom.com.ua/src/images/foto_HD/scepki/scepki_4.JPG', alt: 'Сцепки Универсальные Укрдетальпром'},
+                {image: 'http://ukrdetalprom.com.ua/src/images/foto_HD/scepki/scepki_5.JPG', alt: 'Сцепки Универсальные Укрдетальпром'},
+                {image: 'http://ukrdetalprom.com.ua/src/images/foto_HD/scepki/scepki_6.JPG', alt: 'Сцепки Универсальные Укрдетальпром'}
             ],
             productDiscription: {
                 discriotionText: 'Сцепки одинарная, двойная, тройная имеют болтовой зажим и регулировку. Для мотоблоков и культиваторов Зубр, Аврора, Кентавр, Forte, Zirka, Wtima, Rotex, Добрыня, Заря. Используется для агрегатирования и регулировки различного навесного оборудования, такого как: плоскорезы, окучники, картофелекопалки и т.д.',
@@ -73,7 +71,138 @@ const initialState = {
                         DataName: 'Производитель',
                         DataParameter: 'OOO УКРДЕТАЛЬПРОМ'
                     }
+                ],
+                waranty: 24
+            }
+        },
+        {
+            id: 3,
+            productName: 'ПЛОСКОРЕЗ (ПРОПОЛЬНИК) УНИВЕРСАЛЬНЫЙ СО СМЕННЫМИ НОЖАМИ',
+            productPicture: [
+                {image: 'http://ukrdetalprom.com.ua/src/images/foto_HD/ploskorez/ploskorez_2.JPG', alt: 'ПЛОСКОРЕЗ (ПРОПОЛЬНИК) УНИВЕРСАЛЬНЫЙ СО СМЕННЫМИ НОЖАМИ Укрдетальпром'},
+                {image: 'http://ukrdetalprom.com.ua/src/images/foto_HD/ploskorez/ploskorez_1.JPG', alt: 'ПЛОСКОРЕЗ (ПРОПОЛЬНИК) УНИВЕРСАЛЬНЫЙ СО СМЕННЫМИ НОЖАМИ Укрдетальпром'},
+                {image: 'http://ukrdetalprom.com.ua/src/images/foto_HD/ploskorez/ploskorez_3.JPG', alt: 'ПЛОСКОРЕЗ (ПРОПОЛЬНИК) УНИВЕРСАЛЬНЫЙ СО СМЕННЫМИ НОЖАМИ Укрдетальпром'},
+                {image: 'http://ukrdetalprom.com.ua/src/images/foto_HD/ploskorez/ploskorez_4.JPG', alt: 'ПЛОСКОРЕЗ (ПРОПОЛЬНИК) УНИВЕРСАЛЬНЫЙ СО СМЕННЫМИ НОЖАМИ Укрдетальпром'},
+                {image: 'http://ukrdetalprom.com.ua/src/images/foto_HD/ploskorez/ploskorez_5.JPG', alt: 'ПЛОСКОРЕЗ (ПРОПОЛЬНИК) УНИВЕРСАЛЬНЫЙ СО СМЕННЫМИ НОЖАМИ Укрдетальпром'},
+            ],
+            productDiscription: {
+                discriotionText: 'Плоскорез (пропольник) со сменными ножами используется для междурядной обработки участка. Предназначен для сплошной обработки верхнего слоя грунта, уничтожает сорняки. Плоскорез устанавливается как на одинарную, так и на двойную или тройную сцепки в зависимости от мощности двигателя аграрного инструмента.',
+                techData: [
+                    {
+                        DataName: 'Высота, мм',
+                        DataParameter: '480'
+                    },
+                    {
+                        DataName: 'Ширина захвата, мм',
+                        DataParameter: '270-350; 270-520'
+                    },
+                    {
+                        DataName: 'Глубина обраб., мм',
+                        DataParameter: '80-100'
+                    },
+                    {
+                        DataName: 'Производитель',
+                        DataParameter: 'OOO УКРДЕТАЛЬПРОМ'
+                    }
+                ],
+                waranty: 24
+            }
+        },
+        {
+            id: 4,
+            productName: 'ОКУЧНИК УНИВЕРСАЛЬНЫЙ "СТРЕЛА"',
+            productPicture: [
+                {image: 'http://ukrdetalprom.com.ua/src/images/foto_HD/strela/strela_1.JPG', alt: 'ОКУЧНИК УНИВЕРСАЛЬНЫЙ "СТРЕЛА" Укрдетальпром'},
+                {image: 'http://ukrdetalprom.com.ua/src/images/foto_HD/strela/strela_2.JPG', alt: 'ОКУЧНИК УНИВЕРСАЛЬНЫЙ "СТРЕЛА" Укрдетальпром'},
+                {image: 'http://ukrdetalprom.com.ua/src/images/foto_HD/strela/strela_3.JPG', alt: 'ОКУЧНИК УНИВЕРСАЛЬНЫЙ "СТРЕЛА" Укрдетальпром'}
+            ],
+            productDiscription: {
+                discriotionText: 'Окучник регулируемый "СТРЕЛА" агрегатируется при помощи одинарной регулируемой сцепки. Возможна эксплуатация двух или трех изделий одновременно - тогда вам понадобится двойная (тройная) сцепка. Предназначен для обработки междурядий - окучивания, а также для прорезания борозд под посадку различных культур.',
+                techData: [
+                    {
+                        DataName: 'Высота, мм',
+                        DataParameter: '480'
+                    },
+                    {
+                        DataName: 'Ширина захвата, мм',
+                        DataParameter: '250-500'
+                    },
+                    {
+                        DataName: 'Глубина обраб., мм',
+                        DataParameter: '120-200'
+                    },
+                    {
+                        DataName: 'Производитель',
+                        DataParameter: 'OOO УКРДЕТАЛЬПРОМ'
+                    }
+                ],
+                waranty: 24
+            }
+        },
+        {
+            id: 5,
+            productName: 'ФРЕЗА ( ПОЧВОФРЕЗА ) - 1 секция',
+            productPicture: [
+                {image: 'http://ukrdetalprom.com.ua/src/images/foto_HD/freza/freza_1.JPG', alt: 'ФРЕЗА ( ПОЧВОФРЕЗА ) - 1 секция Укрдетальпром'},
+                {image: 'http://ukrdetalprom.com.ua/src/images/foto_HD/freza/freza_2.JPG', alt: 'ФРЕЗА ( ПОЧВОФРЕЗА ) - 1 секция Укрдетальпром'},
+                {image: 'http://ukrdetalprom.com.ua/src/images/foto_HD/freza/freza_3.JPG', alt: 'ФРЕЗА ( ПОЧВОФРЕЗА ) - 1 секция Укрдетальпром'}
+            ],
+            productDiscription: {
+                discriotionText: 'Фреза ( почвофреза ) секционная используется для сплошной обработки (культивации) слоя земли. Ширина обработки зависит от количества секций и мощности двигателя. Диаметр посадочного вала - 30 мм, длина ножа 280 мм, межосевое расстояние крепежных отверстий ножа - 70 мм.',
+                techData: [
+                    {
+                        DataName: 'Глубина культивации, мм',
+                        DataParameter: '80-200'
+                    },
+                    {
+                        DataName: 'Привод',
+                        DataParameter: 'от оси'
+                    },
+                    {
+                        DataName: 'Производитель',
+                        DataParameter: 'OOO УКРДЕТАЛЬПРОМ'
+                    }
                 ]
+            }
+        },
+        {
+            id: 6,
+            productName: 'КАРТОФЕЛЕКОПАЛКА УНИВЕРСАЛЬНАЯ : 520 х 250',
+            productPicture: [
+                {image: 'http://ukrdetalprom.com.ua/src/images/foto_HD/kartofelekopalka/kartofelekopalka_1.JPG', alt: 'КАРТОФЕЛЕКОПАЛКА УНИВЕРСАЛЬНАЯ 520 х 250 Укрдетальпром'},
+                {image: 'http://ukrdetalprom.com.ua/src/images/foto_HD/kartofelekopalka/kartofelekopalka_2.JPG', alt: 'КАРТОФЕЛЕКОПАЛКА УНИВЕРСАЛЬНАЯ 520 х 250 Укрдетальпром'},
+                {image: 'http://ukrdetalprom.com.ua/src/images/foto_HD/kartofelekopalka/kartofelekopalka_3.JPG', alt: 'КАРТОФЕЛЕКОПАЛКА УНИВЕРСАЛЬНАЯ 520 х 250 Укрдетальпром'},
+                {image: 'http://ukrdetalprom.com.ua/src/images/foto_HD/kartofelekopalka/kartofelekopalka_4.JPG', alt: 'КАРТОФЕЛЕКОПАЛКА УНИВЕРСАЛЬНАЯ 520 х 250 Укрдетальпром'},
+                {image: 'http://ukrdetalprom.com.ua/src/images/foto_HD/kartofelekopalka/kartofelekopalka_5.JPG', alt: 'КАРТОФЕЛЕКОПАЛКА УНИВЕРСАЛЬНАЯ 520 х 250 Укрдетальпром'},
+                {image: 'http://ukrdetalprom.com.ua/src/images/foto_HD/kartofelekopalka/kartofelekopalka_6.JPG', alt: 'КАРТОФЕЛЕКОПАЛКА УНИВЕРСАЛЬНАЯ 520 х 250 Укрдетальпром'},
+                {image: 'http://ukrdetalprom.com.ua/src/images/foto_HD/kartofelekopalka/kartofelekopalka_7.JPG', alt: 'КАРТОФЕЛЕКОПАЛКА УНИВЕРСАЛЬНАЯ 520 х 250 Укрдетальпром'},
+                {image: 'http://ukrdetalprom.com.ua/src/images/foto_HD/kartofelekopalka/kartofelekopalka_8.JPG', alt: 'КАРТОФЕЛЕКОПАЛКА УНИВЕРСАЛЬНАЯ 520 х 250 Укрдетальпром'},
+                {image: 'http://ukrdetalprom.com.ua/src/images/foto_HD/kartofelekopalka/kartofelekopalka_9.JPG', alt: 'КАРТОФЕЛЕКОПАЛКА УНИВЕРСАЛЬНАЯ 520 х 250 Укрдетальпром'},
+                {image: 'http://ukrdetalprom.com.ua/src/images/foto_HD/kartofelekopalka/kartofelekopalka_10.JPG', alt: 'КАРТОФЕЛЕКОПАЛКА УНИВЕРСАЛЬНАЯ 520 х 250 Укрдетальпром'},
+                {image: 'http://ukrdetalprom.com.ua/src/images/foto_HD/kartofelekopalka/kartofelekopalka_11.JPG', alt: 'КАРТОФЕЛЕКОПАЛКА УНИВЕРСАЛЬНАЯ 520 х 250 Укрдетальпром'},
+                {image: 'http://ukrdetalprom.com.ua/src/images/foto_HD/kartofelekopalka/kartofelekopalka_12.JPG', alt: 'КАРТОФЕЛЕКОПАЛКА УНИВЕРСАЛЬНАЯ 520 х 250 Укрдетальпром'}
+            ],
+            productDiscription: {
+                discriotionText: 'Картофелекопалка универсальная для мотоблоков и мотокультиваторов агрегатируется при помощи одинарной регулируемой сцепки.Возможна эксплуатация двух или трех изделий одновременно - тогда вам понадобится двойная (тройная) сцепка.Картофелекопалка универсальная используется для выкапывания картофеля и других корнеплодов.﻿',
+                techData: [
+                    {
+                        DataName: 'Высота, мм',
+                        DataParameter: '520'
+                    },
+                    {
+                        DataName: 'Ширина, мм',
+                        DataParameter: '250'
+                    },
+                    {
+                        DataName: 'Глубина обраб., мм',
+                        DataParameter: '80-120'
+                    },
+                    {
+                        DataName: 'Производитель',
+                        DataParameter: 'OOO УКРДЕТАЛЬПРОМ'
+                    }
+                ],
+                waranty: 24
             }
         }
     ],
@@ -82,20 +211,24 @@ const initialState = {
             id: 1,
             productName: 'Плуг ПН 225 У',
             productPicture: [
-                'http://ukrdetalprom.com.ua/src/images/foto_HD/plug/IMG_7308.JPG',
-                'http://ukrdetalprom.com.ua/src/images/foto_HD/plug/IMG_7309.JPG',
-                'http://ukrdetalprom.com.ua/src/images/foto_HD/plug/IMG_7310.JPG',
-                'http://ukrdetalprom.com.ua/src/images/foto_HD/plug/IMG_7311.JPG',
-                'http://ukrdetalprom.com.ua/src/images/foto_HD/plug/IMG_7313.JPG',
-                'http://ukrdetalprom.com.ua/src/images/foto_HD/plug/IMG_7314.JPG',
-                'http://ukrdetalprom.com.ua/src/images/foto_HD/plug/IMG_7315.JPG',
-                'http://ukrdetalprom.com.ua/src/images/foto_HD/plug/IMG_7318.JPG',
-                'http://ukrdetalprom.com.ua/src/images/foto_HD/plug/IMG_7320.JPG',
-                'http://ukrdetalprom.com.ua/src/images/foto_HD/plug/IMG_7322.JPG',
-                'http://ukrdetalprom.com.ua/src/images/foto_HD/plug/IMG_7324.JPG',
-                'http://ukrdetalprom.com.ua/src/images/foto_HD/plug/IMG_7331.JPG',
-                'http://ukrdetalprom.com.ua/src/images/foto_HD/plug/IMG_7326.JPG',
-                'http://ukrdetalprom.com.ua/src/images/foto_HD/plug/IMG_7323.JPG'
+                {image: 'http://ukrdetalprom.com.ua/src/images/foto_HD/plug/plug_1.JPG', alt: 'ПЛУГ ПН 225 У Укрдетальпром'},
+                {image: 'http://ukrdetalprom.com.ua/src/images/foto_HD/plug/plug_2.JPG', alt: 'ПЛУГ ПН 225 У Укрдетальпром'},
+                {image: 'http://ukrdetalprom.com.ua/src/images/foto_HD/plug/plug_3.JPG', alt: 'ПЛУГ ПН 225 У Укрдетальпром'},
+                {image: 'http://ukrdetalprom.com.ua/src/images/foto_HD/plug/plug_4.JPG', alt: 'ПЛУГ ПН 225 У Укрдетальпром'},
+                {image: 'http://ukrdetalprom.com.ua/src/images/foto_HD/plug/plug_5.JPG', alt: 'ПЛУГ ПН 225 У Укрдетальпром'},
+                {image: 'http://ukrdetalprom.com.ua/src/images/foto_HD/plug/plug_6.JPG', alt: 'ПЛУГ ПН 225 У Укрдетальпром'},
+                {image: 'http://ukrdetalprom.com.ua/src/images/foto_HD/plug/plug_7.JPG', alt: 'ПЛУГ ПН 225 У Укрдетальпром'},
+                {image: 'http://ukrdetalprom.com.ua/src/images/foto_HD/plug/plug_8.JPG', alt: 'ПЛУГ ПН 225 У Укрдетальпром'},
+                {image: 'http://ukrdetalprom.com.ua/src/images/foto_HD/plug/plug_9.JPG', alt: 'ПЛУГ ПН 225 У Укрдетальпром'},
+                {image: 'http://ukrdetalprom.com.ua/src/images/foto_HD/plug/plug_10.JPG', alt: 'ПЛУГ ПН 225 У Укрдетальпром'},
+                {image: 'http://ukrdetalprom.com.ua/src/images/foto_HD/plug/plug_11.JPG', alt: 'ПЛУГ ПН 225 У Укрдетальпром'},
+                {image: 'http://ukrdetalprom.com.ua/src/images/foto_HD/plug/plug_12.JPG', alt: 'ПЛУГ ПН 225 У Укрдетальпром'},
+                {image: 'http://ukrdetalprom.com.ua/src/images/foto_HD/plug/plug_13.JPG', alt: 'ПЛУГ ПН 225 У Укрдетальпром'},
+                {image: 'http://ukrdetalprom.com.ua/src/images/foto_HD/plug/plug_14.JPG', alt: 'ПЛУГ ПН 225 У Укрдетальпром'},
+                {image: 'http://ukrdetalprom.com.ua/src/images/foto_HD/plug/plug_15.JPG', alt: 'ПЛУГ ПН 225 У Укрдетальпром'},
+                {image: 'http://ukrdetalprom.com.ua/src/images/foto_HD/plug/plug_16.JPG', alt: 'ПЛУГ ПН 225 У Укрдетальпром'},
+                {image: 'http://ukrdetalprom.com.ua/src/images/foto_HD/plug/plug_17.JPG', alt: 'ПЛУГ ПН 225 У Укрдетальпром'},
+                {image: 'http://ukrdetalprom.com.ua/src/images/foto_HD/plug/plug_18.JPG', alt: 'ПЛУГ ПН 225 У Укрдетальпром'},
             ],
             
             productDiscription: {
@@ -145,29 +278,16 @@ const initialState = {
                         DataName: 'Производитель',
                         DataParameter: 'OOO УКРДЕТАЛЬПРОМ'
                     }
-                ]
+                ],
+                waranty: 24
             },
             waranty: 24
         },
         {
             id: 2,
             productName: 'Плуг ПН 325 У',
-            productPicture: 'http://ukrdetalprom.com.ua/src/images/preview/plug_3_prev.jpg',
-            productPictureHD: [
-                'http://ukrdetalprom.com.ua/src/images/foto_HD/plug/IMG_7308.JPG',
-                'http://ukrdetalprom.com.ua/src/images/foto_HD/plug/IMG_7309.JPG',
-                'http://ukrdetalprom.com.ua/src/images/foto_HD/plug/IMG_7310.JPG',
-                'http://ukrdetalprom.com.ua/src/images/foto_HD/plug/IMG_7311.JPG',
-                'http://ukrdetalprom.com.ua/src/images/foto_HD/plug/IMG_7313.JPG',
-                'http://ukrdetalprom.com.ua/src/images/foto_HD/plug/IMG_7314.JPG',
-                'http://ukrdetalprom.com.ua/src/images/foto_HD/plug/IMG_7315.JPG',
-                'http://ukrdetalprom.com.ua/src/images/foto_HD/plug/IMG_7318.JPG',
-                'http://ukrdetalprom.com.ua/src/images/foto_HD/plug/IMG_7320.JPG',
-                'http://ukrdetalprom.com.ua/src/images/foto_HD/plug/IMG_7322.JPG',
-                'http://ukrdetalprom.com.ua/src/images/foto_HD/plug/IMG_7324.JPG',
-                'http://ukrdetalprom.com.ua/src/images/foto_HD/plug/IMG_7331.JPG',
-                'http://ukrdetalprom.com.ua/src/images/foto_HD/plug/IMG_7326.JPG',
-                'http://ukrdetalprom.com.ua/src/images/foto_HD/plug/IMG_7323.JPG'
+            productPicture: [
+                {image: 'http://ukrdetalprom.com.ua/src/images/foto_HD/plug/plug_1.JPG', alt: 'ПЛУГ ПН 225 У Укрдетальпром'},
             ],
             productDiscription: {
                 discriotionText: 'Плуг навесной ПН 325 У - новый трехкорпусный (высота корпуса 500 мм) плуг с усиленной рамой. Имеет возможность точной регулировки, улучшеный корпус, способствующий хорошему оборачиванию почвенного пласта. Корпус плуга к главной балке рамы крепится на трех болтах.Положение корпусов плуга относительно рамы и друг к другу отрегулировано на заводе и не требует дополнительных регулировок.',
@@ -223,7 +343,10 @@ const initialState = {
         {
             id: 3,
             productName: 'Культиватор универсальный КУ-2,0У',
-            productPicture: '../images/preview/ku20u.jpg',
+            productPicture: [
+                {image: 'http://ukrdetalprom.com.ua/src/images/foto_HD/plug/plug_1.JPG', alt: 'ПЛУГ ПН 225 У Укрдетальпром'},
+            ],
+
             productDiscription: {
                 discriotionText: 'Культиватор универсальный ﻿КУ - 2,0 У используется для культивирования (разрыхления)почвы, которую необходимо выполнять в предпосевной период. Благодаря колесам имеет опору на почву. Агрегатируется в качестве навесного оборудования на трактор, мощность которого от 20 - 30 л.с.',
                 techData: [
@@ -272,7 +395,9 @@ const initialState = {
         {
             id: 1,
             productName: 'КОРЗИНА "УНИВЕРСАЛЬНАЯ" Н - 270 ; H - 400',
-            productPicture: korzinaUniversal,
+            productPicture: [
+                {image: 'http://ukrdetalprom.com.ua/src/images/foto_HD/plug/plug_1.JPG', alt: 'ПЛУГ ПН 225 У Укрдетальпром'},
+            ],
             productDiscription: {
                 discriotionText: 'Корзина "универсальная" - используется при заготовке, транспортировке, хранении овощей и фруктов в рыбной, строительной, производственной направленности, а также перемещении бытовых отходов. Выдерживает нагрузку ( вес ) более 50 кг.',
                 techData: [

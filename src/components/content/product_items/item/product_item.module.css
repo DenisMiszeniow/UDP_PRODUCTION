@@ -23,6 +23,14 @@
     text-decoration: underline;
     font-style: italic;
 }
+
+.productDiv .container b {
+    display: block;
+    float: right;
+    padding: 20px 10px 0 0;
+    color: brown;
+}
+
 .productDiv .container ul {
     padding: 0;
 }
@@ -34,7 +42,7 @@
     line-height: 2rem;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
     .productDiv img {
         width: 100%;
     }
