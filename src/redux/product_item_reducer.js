@@ -174,14 +174,7 @@ const initialState = {
                 {image: 'http://ukrdetalprom.com.ua/src/images/foto_HD/kartofelekopalka/kartofelekopalka_3.JPG', alt: 'КАРТОФЕЛЕКОПАЛКА УНИВЕРСАЛЬНАЯ 520 х 250 Укрдетальпром'},
                 {image: 'http://ukrdetalprom.com.ua/src/images/foto_HD/kartofelekopalka/kartofelekopalka_4.JPG', alt: 'КАРТОФЕЛЕКОПАЛКА УНИВЕРСАЛЬНАЯ 520 х 250 Укрдетальпром'},
                 {image: 'http://ukrdetalprom.com.ua/src/images/foto_HD/kartofelekopalka/kartofelekopalka_5.JPG', alt: 'КАРТОФЕЛЕКОПАЛКА УНИВЕРСАЛЬНАЯ 520 х 250 Укрдетальпром'},
-                {image: 'http://ukrdetalprom.com.ua/src/images/foto_HD/kartofelekopalka/kartofelekopalka_6.JPG', alt: 'КАРТОФЕЛЕКОПАЛКА УНИВЕРСАЛЬНАЯ 520 х 250 Укрдетальпром'},
-                {image: 'http://ukrdetalprom.com.ua/src/images/foto_HD/kartofelekopalka/kartofelekopalka_7.JPG', alt: 'КАРТОФЕЛЕКОПАЛКА УНИВЕРСАЛЬНАЯ 520 х 250 Укрдетальпром'},
-                {image: 'http://ukrdetalprom.com.ua/src/images/foto_HD/kartofelekopalka/kartofelekopalka_8.JPG', alt: 'КАРТОФЕЛЕКОПАЛКА УНИВЕРСАЛЬНАЯ 520 х 250 Укрдетальпром'},
-                {image: 'http://ukrdetalprom.com.ua/src/images/foto_HD/kartofelekopalka/kartofelekopalka_9.JPG', alt: 'КАРТОФЕЛЕКОПАЛКА УНИВЕРСАЛЬНАЯ 520 х 250 Укрдетальпром'},
-                {image: 'http://ukrdetalprom.com.ua/src/images/foto_HD/kartofelekopalka/kartofelekopalka_10.JPG', alt: 'КАРТОФЕЛЕКОПАЛКА УНИВЕРСАЛЬНАЯ 520 х 250 Укрдетальпром'},
-                {image: 'http://ukrdetalprom.com.ua/src/images/foto_HD/kartofelekopalka/kartofelekopalka_11.JPG', alt: 'КАРТОФЕЛЕКОПАЛКА УНИВЕРСАЛЬНАЯ 520 х 250 Укрдетальпром'},
-                {image: 'http://ukrdetalprom.com.ua/src/images/foto_HD/kartofelekopalka/kartofelekopalka_12.JPG', alt: 'КАРТОФЕЛЕКОПАЛКА УНИВЕРСАЛЬНАЯ 520 х 250 Укрдетальпром'}
-            ],
+                ],
             productDiscription: {
                 discriotionText: 'Картофелекопалка универсальная для мотоблоков и мотокультиваторов агрегатируется при помощи одинарной регулируемой сцепки.Возможна эксплуатация двух или трех изделий одновременно - тогда вам понадобится двойная (тройная) сцепка.Картофелекопалка универсальная используется для выкапывания картофеля и других корнеплодов.﻿',
                 techData: [
@@ -222,13 +215,6 @@ const initialState = {
                 {image: 'http://ukrdetalprom.com.ua/src/images/foto_HD/plug/plug_9.JPG', alt: 'ПЛУГ ПН 225 У Укрдетальпром'},
                 {image: 'http://ukrdetalprom.com.ua/src/images/foto_HD/plug/plug_10.JPG', alt: 'ПЛУГ ПН 225 У Укрдетальпром'},
                 {image: 'http://ukrdetalprom.com.ua/src/images/foto_HD/plug/plug_11.JPG', alt: 'ПЛУГ ПН 225 У Укрдетальпром'},
-                {image: 'http://ukrdetalprom.com.ua/src/images/foto_HD/plug/plug_12.JPG', alt: 'ПЛУГ ПН 225 У Укрдетальпром'},
-                {image: 'http://ukrdetalprom.com.ua/src/images/foto_HD/plug/plug_13.JPG', alt: 'ПЛУГ ПН 225 У Укрдетальпром'},
-                {image: 'http://ukrdetalprom.com.ua/src/images/foto_HD/plug/plug_14.JPG', alt: 'ПЛУГ ПН 225 У Укрдетальпром'},
-                {image: 'http://ukrdetalprom.com.ua/src/images/foto_HD/plug/plug_15.JPG', alt: 'ПЛУГ ПН 225 У Укрдетальпром'},
-                {image: 'http://ukrdetalprom.com.ua/src/images/foto_HD/plug/plug_16.JPG', alt: 'ПЛУГ ПН 225 У Укрдетальпром'},
-                {image: 'http://ukrdetalprom.com.ua/src/images/foto_HD/plug/plug_17.JPG', alt: 'ПЛУГ ПН 225 У Укрдетальпром'},
-                {image: 'http://ukrdetalprom.com.ua/src/images/foto_HD/plug/plug_18.JPG', alt: 'ПЛУГ ПН 225 У Укрдетальпром'},
             ],
             
             productDiscription: {
@@ -287,7 +273,7 @@ const initialState = {
             id: 2,
             productName: 'Плуг ПН 325 У',
             productPicture: [
-                {image: 'http://ukrdetalprom.com.ua/src/images/foto_HD/plug/plug_1.JPG', alt: 'ПЛУГ ПН 225 У Укрдетальпром'},
+                {image: 'http://ukrdetalprom.com.ua/src/images/foto_HD/plug/plug_325.JPG', alt: 'ПЛУГ ПН 325 У Укрдетальпром'},
             ],
             productDiscription: {
                 discriotionText: 'Плуг навесной ПН 325 У - новый трехкорпусный (высота корпуса 500 мм) плуг с усиленной рамой. Имеет возможность точной регулировки, улучшеный корпус, способствующий хорошему оборачиванию почвенного пласта. Корпус плуга к главной балке рамы крепится на трех болтах.Положение корпусов плуга относительно рамы и друг к другу отрегулировано на заводе и не требует дополнительных регулировок.',
@@ -344,11 +330,11 @@ const initialState = {
             id: 3,
             productName: 'Культиватор универсальный КУ-2,0У',
             productPicture: [
-                {image: 'http://ukrdetalprom.com.ua/src/images/foto_HD/plug/plug_1.JPG', alt: 'ПЛУГ ПН 225 У Укрдетальпром'},
+                {image: 'http://ukrdetalprom.com.ua/src/images/foto_HD/kultivator/kultivator_1.JPG', alt: 'КУЛЬТИВАТОР КУ-2,0У Укрдетальпром'},
             ],
 
             productDiscription: {
-                discriotionText: 'Культиватор универсальный ﻿КУ - 2,0 У используется для культивирования (разрыхления)почвы, которую необходимо выполнять в предпосевной период. Благодаря колесам имеет опору на почву. Агрегатируется в качестве навесного оборудования на трактор, мощность которого от 20 - 30 л.с.',
+                discriotionText: 'Культиватор универсальный КУ - 2,0 У используется для культивирования (разрыхления)почвы, которую необходимо выполнять в предпосевной период. Благодаря колесам имеет опору на почву. Агрегатируется в качестве навесного оборудования на трактор, мощность которого от 20 - 30 л.с.',
                 techData: [
                     {
                         DataName: 'Тип',
