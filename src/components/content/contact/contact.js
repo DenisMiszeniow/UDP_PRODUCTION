@@ -1,6 +1,27 @@
 import styles from './contact.module.css'
 
 const ContactPage = (props) => {
+    const localOnChangeNameInput = (valueName) =>{
+        valueName = props.updateNameInput.current.value
+        props.onChangeNameInput(valueName)
+    }
+    
+    const localOnChangeEmailInput = (valueEmail) =>{
+        valueEmail = props.updateEmailInput.current.value
+        props.onChangeEmailInput(valueEmail)
+    }
+
+    const localOnChangeSubjectInput = (valueSubject) =>{
+        
+        valueSubject = props.updateSubjectInput.current.value
+        props.onChangeSubjectInput(valueSubject)
+    }
+
+    const localOnChangeTextAreaInput = (valueTextArea) =>{
+
+        valueTextArea = props.updateTextAreaInput.current.value
+        props.onChangeTextAreaInput(valueTextArea)
+    }
     return (
         <div className={styles.contactContainer}>
             <div className={styles.dataFormContainer}>
@@ -27,24 +48,22 @@ const ContactPage = (props) => {
                 </div>
                 <div>
                 <span className={styles.callBackText}>Обратная связь</span>
-                    <form name="contact_send" >
                         <ul>
                             <li>
                                 <p>ФИО: (обязательно):</p>
-                                <input type="text" name="name" className={styles.input_1} value="" />
+                                <input className={styles.input_1} onChange={localOnChangeNameInput} ref={props.updateNameInput} value={props.nameInput} />
                             </li>
                             <li>
                                 <p>E-mail: (обязательно):</p>
-                                <input type="text" name="email" className={styles.input_1} value="" />
+                                <input className={styles.input_1} onChange={localOnChangeEmailInput} ref={props.updateEmailInput} value={props.emailInput} />
                             </li>
                             <li>
                                 <p>Тема:</p>
-                                <input type="text" name="subject" className={styles.input_1} value="" />
+                                <input className={styles.input_1} onChange={localOnChangeSubjectInput} ref={props.updateSubjectInput} value={props.subjectInput} />
                             </li>
                             <li>
                                 <p>Сообщение:</p>
-                                
-                                    <textarea className={styles.textArea} cols="" rows="" name="msg" ></textarea>
+                                <textarea className={styles.textArea} onChange={localOnChangeTextAreaInput} ref={props.updateTextAreaInput} value={props.textArea} />
                                 
                             </li>
                             <li>
@@ -52,7 +71,6 @@ const ContactPage = (props) => {
                                 <button>Отправить сообщение</button>
                             </li>
                         </ul>
-                    </form>
                 </div>
 
             </div>

@@ -6,6 +6,7 @@ import { MotoblockItems, TractorItems, WireItems } from './product_items/product
 import AboutUs from './about_us/about_us'
 import ShippingAndPayment from './shipping_payment/shipping_payment'
 import ContactPage from './contact/contact'
+import { ContactContainer } from './contact/contact_container'
 
 
 const ContentSide = (props) => {
@@ -18,7 +19,7 @@ const ContentSide = (props) => {
                 <Route path='/wire' element={<WireItems/>}/>
                 <Route path='/onas' element={<AboutUs/>}/>
                 <Route path='/dostavkaoplata' element={<ShippingAndPayment/>}/>
-                <Route path='/kontakt' element={<ContactPage/>}/>
+                <Route path='/kontakt' element={<ContactContainer/>}/>
             </Routes>
         </div>
     )
