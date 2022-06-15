@@ -11,8 +11,8 @@ const ProductsCategory = (props) => {
                         <h3>{props.title}</h3>
                     </NavLink>
                 </div>
-                <div>
-                    <a href='#'><img src={props.foto}/></a>
+                <div className={styles.discriptionArea}>
+                <NavLink to={`/${props.section}`}><img src={props.foto}/></NavLink>
                     <p>
                         {props.discription}
                     </p>

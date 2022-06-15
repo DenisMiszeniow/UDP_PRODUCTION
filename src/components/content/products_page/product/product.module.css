@@ -42,3 +42,12 @@
     padding-bottom: 5px;
     margin: 0;
 }
+
+@media only screen and (max-width: 600px) {
+    .discriptionArea p {
+        display: none;
+    }
+    .productDiv img {
+        float:none;
+    }
+}
