@@ -1,4 +1,6 @@
 import styles from './contact.module.css'
+import emailjs from '@emailjs/browser'
+import { useRef } from 'react'
 
 const ContactPage = (props) => {
     const localOnChangeNameInput = (valueName) =>{
@@ -21,6 +23,18 @@ const ContactPage = (props) => {
 
         valueTextArea = props.updateTextAreaInput.current.value
         props.onChangeTextAreaInput(valueTextArea)
+    }
+
+    const form = useRef()
+
+    const sendEmail = (e) =>{
+        e.preventDefault()
+        emailjs.sendForm('service_vx9a5cz', 'template_cngc31m', form.current, 'rB9N2zoV8qvOchXfR')
+        .then((result) => {
+            let statusOk = 'Отправлено!';
+        }, (error) => {
+            console.log(error.text);
+        })
     }
     return (
         <div className={styles.contactContainer}>
@@ -46,31 +60,24 @@ const ContactPage = (props) => {
                         </li>
                     </ul>
                 </div>
-                <div>
-                <span className={styles.callBackText}>Обратная связь</span>
-                        <ul>
-                            <li>
-                                <p>ФИО: (обязательно):</p>
-                                <input className={styles.input_1} onChange={localOnChangeNameInput} ref={props.updateNameInput} value={props.nameInput} />
-                            </li>
-                            <li>
-                                <p>E-mail: (обязательно):</p>
-                                <input className={styles.input_1} onChange={localOnChangeEmailInput} ref={props.updateEmailInput} value={props.emailInput} />
-                            </li>
-                            <li>
-                                <p>Тема:</p>
-                                <input className={styles.input_1} onChange={localOnChangeSubjectInput} ref={props.updateSubjectInput} value={props.subjectInput} />
-                            </li>
-                            <li>
-                                <p>Сообщение:</p>
-                                <textarea className={styles.textArea} onChange={localOnChangeTextAreaInput} ref={props.updateTextAreaInput} value={props.textArea} />
+                <div className={styles.contactFormContainer}>
+                    <span className={styles.callBackText}>Обратная связь</span>
+                            <form ref={form} onSubmit={sendEmail}>
+                                <label>ФИО: (обязательно):</label>
+                                <input name='user_name' type='text' className={styles.input_1} onChange={localOnChangeNameInput} ref={props.updateNameInput} value={props.nameInput} placeholder="наприклад: Петро Сидоренко"/>
                                 
-                            </li>
-                            <li>
-                                <p></p>
-                                <button>Отправить сообщение</button>
-                            </li>
-                        </ul>
+                                <label>E-mail: (обязательно):</label>
+                                <input name='user_email' type='email' className={styles.input_1} onChange={localOnChangeEmailInput} ref={props.updateEmailInput} value={props.emailInput} placeholder="наприклад: petro@website.com"/>
+                                
+                                <label>Тема:</label>
+                                <input name='subject' type='text' className={styles.input_1} onChange={localOnChangeSubjectInput} ref={props.updateSubjectInput} value={props.subjectInput} />
+                                
+                                <label>Сообщение:</label>
+                                <textarea name='message' className={styles.textArea} onChange={localOnChangeTextAreaInput} ref={props.updateTextAreaInput} value={props.textArea} />
+                                
+                                <input type='submit'className={styles.submitButton} value='ОТПРАВИТЬ СООБЩЕНИЕ' />
+                                <span className={styles.messageStatusLoader}></span>
+                            </form>
                 </div>
 
             </div>

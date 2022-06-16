@@ -6,10 +6,10 @@ const SEND_MESSAGE = 'SEND_MESSAGE'
 
 const initialState = {
     messageBody: [],
-    nameInput: 'Denis',
-    emailInput: 'duminocorp@gmail.com',
-    subjectInput: 'Hello UDP',
-    textArea: 'Hej'
+    nameInput: '',
+    emailInput: '',
+    subjectInput: '',
+    textArea: ''
 }
 
 export const contactPageReducer = (state = initialState, action) => {
