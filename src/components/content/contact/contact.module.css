@@ -95,9 +95,22 @@
 
 .messageStatusLoader {
     display: block;
-    width: 50%;
+    min-width: 49%!important;
+    padding: 0!important;
     height: 50px;
-    float: right;
     background: url(../../../images/loader.gif) top left no-repeat;
+    float: right;
+}
+.messageStatus {
+    display: block;
+    padding: 15px 0 0 0;
+    font-size: 16px;
+    font-weight: bold;
+    color: green;
+    min-width: 100px;
+    float: right;
+}
+.messageError {
+    color: red!important;
 }
 

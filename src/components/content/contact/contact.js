@@ -31,11 +31,17 @@ const ContactPage = (props) => {
         e.preventDefault()
         emailjs.sendForm('service_vx9a5cz', 'template_cngc31m', form.current, 'rB9N2zoV8qvOchXfR')
         .then((result) => {
-            let statusOk = 'Отправлено!';
+            console.log(result.text)
+            props.onSentMessage()
         }, (error) => {
-            console.log(error.text);
+            console.log(error.text)
+            props.onSentMessageError()
         })
     }
+    const onClickLoader = () => {
+        props.onClickSendMessage()
+    }
+
     return (
         <div className={styles.contactContainer}>
             <div className={styles.dataFormContainer}>
@@ -75,11 +81,10 @@ const ContactPage = (props) => {
                                 <label>Сообщение:</label>
                                 <textarea name='message' className={styles.textArea} onChange={localOnChangeTextAreaInput} ref={props.updateTextAreaInput} value={props.textArea} />
                                 
-                                <input type='submit'className={styles.submitButton} value='ОТПРАВИТЬ СООБЩЕНИЕ' />
-                                <span className={styles.messageStatusLoader}></span>
+                                <input type='submit'className={styles.submitButton} onClick={onClickLoader} value='ОТПРАВИТЬ СООБЩЕНИЕ' />
+                                <span className={`${styles.messageStatus} ${props.loader && styles.messageStatusLoader} ${props.errorMessage && styles.messageError}`}>{props.messageStatus}</span>
                             </form>
                 </div>
-
             </div>
             <div className={styles.mapContainer}>
             map will be here
