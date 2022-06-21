@@ -4,6 +4,7 @@
     background-color: #fff;
     border-radius: 4px;
     margin-bottom: 10px;
+    min-height: 270px;
 }
 .productDiv img {
     display: block;
@@ -20,7 +21,9 @@
 }
 .productDiv p {
     font-size: 16px;
-    line-height: 2em;
+    line-height: 23px;
+    text-align: justify;
+    
 }
 .productDiv a {
     text-decoration: none;
