@@ -1,0 +1,80 @@
+.serviceDiv {
+    padding: 2%;
+    border: 1px solid rgb(80, 67, 67);
+    background-color: #fff;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+.discriptionArea {
+    min-height: 250px;
+}
+.serviceDiv img {
+    display: block;
+    float: left;
+    margin-right: 20px;
+    border: 1px solid rgb(80, 67, 67);
+    border-radius: 4px;
+    background: url(../../../images/loader.gif) top center no-repeat;
+}
+@media only screen and (max-width: 600px) {
+    .serviceDiv img {
+        width: 100%;
+    }
+}
+.serviceDiv p {
+    font-size: 16px;
+    line-height: 2em;
+    padding: 0;
+    margin: 0;
+    text-align: justify;
+}
+
+.discriptionArea div ul {
+    list-style:circle;
+    list-style-image: url(../../../images/content_list_bg1.png);
+}
+.discriptionArea div ul li {
+    margin-bottom: 5px;
+}
+
+.discriptionArea div ul li p {
+    line-height: 22px;
+}
+
+
+.serviceDiv span {
+    font-weight: bold;
+    display: block;
+    padding: 20px 0 5px 0;
+    margin-bottom: 15px;
+    background: url(../../../images/headline_bg5.png) left bottom  no-repeat;
+}
+
+.serviceDiv a {
+    text-decoration: none;
+}
+
+.serviceDiv a.active {
+    text-decoration: blue;
+}
+
+.serviceDiv a:hover {
+    text-decoration: underline;
+}
+
+.titleDiv {
+    
+    background: url(../../../images/headline_bg5.png) left bottom  no-repeat;
+    margin-bottom: 10px;
+}
+.titleDiv h1 {
+    padding-bottom: 5px;
+    margin: 0;
+}
+
+@media only screen and (max-width: 600px) {
+    
+    .serviceDiv img {
+        float:none;
+    }
+}

@@ -33,6 +33,8 @@ const ContactPage = (props) => {
             .then((result) => {
                 console.log(result.text)
                 props.onSentMessage()
+                setTimeout(() => props.clearMessageStatus(), 5000)
+                
             }, (error) => {
                 console.log(error.text)
                 props.onSentMessageError()
@@ -70,10 +72,10 @@ const ContactPage = (props) => {
                     <span className={styles.callBackText}>Обратная связь</span>
                     <form ref={form} onSubmit={sendEmail}>
                         <label>ФИО: (обязательно):</label>
-                        <input name='user_name' type='text' className={styles.input_1} onChange={localOnChangeNameInput} ref={props.updateNameInput} value={props.nameInput} placeholder="наприклад: Петро Сидоренко" />
+                        <input name='user_name' type='text' required className={styles.input_1} onChange={localOnChangeNameInput} ref={props.updateNameInput} value={props.nameInput} placeholder="наприклад: Петро Сидоренко" />
 
                         <label>E-mail: (обязательно):</label>
-                        <input name='user_email' type='email' className={styles.input_1} onChange={localOnChangeEmailInput} ref={props.updateEmailInput} value={props.emailInput} placeholder="наприклад: petro@website.com" />
+                        <input name='user_email' type='email' required className={styles.input_1} onChange={localOnChangeEmailInput} ref={props.updateEmailInput} value={props.emailInput} placeholder="наприклад: petro@website.com" />
 
                         <label>Тема:</label>
                         <input name='subject' type='text' className={styles.input_1} onChange={localOnChangeSubjectInput} ref={props.updateSubjectInput} value={props.subjectInput} />
@@ -91,9 +93,9 @@ const ContactPage = (props) => {
                 <iframe
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2676.417609376621!2d35.14202061582244!3d47.8702413792031!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40dc670259a2fd89%3A0x68a460a53205a139!2sDiahonalna%20St%2C%207%2C%20Zaporizhzhia%2C%20Zaporiz&#39;ka%20oblast%2C%20Ukraina%2C%2069000!5e0!3m2!1spl!2spl!4v1655740104476!5m2!1spl!2spl"
                     className={styles.mapFrame}
-                    allowfullscreen="true"
+                    allowFullScreen=""
                     loading="lazy"
-                    referrerpolicy="no-referrer-when-downgrade">
+                    referrerPolicy="no-referrer-when-downgrade">
                 </iframe>
             </div>
         </div>

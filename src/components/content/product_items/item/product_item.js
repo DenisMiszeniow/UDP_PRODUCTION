@@ -21,11 +21,12 @@ const ProductItem = (props) => {
                         <strong>Технические характеристики:</strong>
                         <ul className={styles.discriptionList}>
                         {
-                            props.discription.techData.map(data => <li>
+                            props.discription.techData.map(data => <li key={data.id}>
                                                                         <span className={styles.discriptionName}>
                                                                             {`${data.DataName}:`}
                                                                         </span>
-                                                                        <span>{` ${data.DataParameter}`}
+                                                                        <span>
+                                                                            {` ${data.DataParameter}`}
                                                                         </span>
                                                                     </li>)
                         }

@@ -375,9 +375,11 @@ const initialState = {
     productItemsWire: [
         {
             id: 1,
-            productName: 'КОРЗИНА "УНИВЕРСАЛЬНАЯ" Н - 270 ; H - 400',
+            productName: 'КОРЗИНА "УНИВЕРСАЛЬНАЯ Н - 270 ; H - 400',
             productPicture: [
-                {image: 'http://ukrdetalprom.com.ua/src/images/foto_HD/plug/plug_1.JPG', alt: 'ПЛУГ ПН 225 У Укрдетальпром'},
+                {image: 'http://ukrdetalprom.com.ua/src/images/foto_HD/korzina/korzina_1.JPG', alt: 'КОРЗИНА "УНИВЕРСАЛЬНАЯ Укрдетальпром'},
+                {image: 'http://ukrdetalprom.com.ua/src/images/foto_HD/korzina/korzina_2.JPG', alt: 'КОРЗИНА "УНИВЕРСАЛЬНАЯ Укрдетальпром'},
+                {image: 'http://ukrdetalprom.com.ua/src/images/foto_HD/korzina/korzina_3.JPG', alt: 'КОРЗИНА "УНИВЕРСАЛЬНАЯ Укрдетальпром'}
             ],
             productDiscription: {
                 discriotionText: 'Корзина "универсальная" - используется при заготовке, транспортировке, хранении овощей и фруктов в рыбной, строительной, производственной направленности, а также перемещении бытовых отходов. Выдерживает нагрузку ( вес ) более 50 кг.',
@@ -398,9 +400,69 @@ const initialState = {
                         DataName: 'Производитель',
                         DataParameter: 'OOO УКРДЕТАЛЬПРОМ'
                     }
-                ]
+                ],
+                waranty: 24,
             },
             waranty: 24
+        },
+        {
+            id: 2,
+            productName: 'СКОБА СТРОИТЕЛЬНАЯ',
+            productPicture: [
+                {image: 'http://ukrdetalprom.com.ua/src/images/foto_HD/skoba/skoba_1.JPG', alt: 'СКОБА СТРОИТЕЛЬНАЯ Укрдетальпром'},
+            ],
+            productDiscription: {
+                discriotionText: 'Применение: соединение изделий из дерева, ступеньки в колодец, армирование бетонной смеси',
+                techData: [
+                    {
+                        DataName: 'Длина/Ширина, мм',
+                        DataParameter: '160x80(60) до 2000х135(150)'
+                    },
+                    {
+                        DataName: 'Материал Ø мм',
+                        DataParameter: 'арматура 8; 10; 12'
+                    },
+                    {
+                        DataName: 'Наличие',
+                        DataParameter: 'под заказ'
+                    },
+                    {
+                        DataName: 'Производитель',
+                        DataParameter: 'OOO УКРДЕТАЛЬПРОМ'
+                    }
+                ],
+                waranty: 24,
+            }
+        },
+        {
+            id: 3,
+            productName: 'ПОДСТАВКА ПОД ЦВЕТЫ',
+            productPicture: [
+                {image: 'http://ukrdetalprom.com.ua/src/images/foto_HD/cvety/cvety_1.JPG', alt: 'ПОДСТАВКА ПОД ЦВЕТЫ Укрдетальпром'},
+                {image: 'http://ukrdetalprom.com.ua/src/images/foto_HD/cvety/cvety_2.JPG', alt: 'ПОДСТАВКА ПОД ЦВЕТЫ Укрдетальпром'},
+            ],
+            productDiscription: {
+                discriotionText: 'Применение: Удобные и практичные подставки под корзины с цветами. Применяется как внутри так и снаружи зданий.',
+                techData: [
+                    {
+                        DataName: 'Длина/Ширина, мм',
+                        DataParameter: 'под заказ'
+                    },
+                    {
+                        DataName: 'Материал',
+                        DataParameter: 'проволока'
+                    },
+                    {
+                        DataName: 'Наличие',
+                        DataParameter: 'под заказ'
+                    },
+                    {
+                        DataName: 'Производитель',
+                        DataParameter: 'OOO УКРДЕТАЛЬПРОМ'
+                    }
+                ],
+                waranty: 24,
+            }
         },
     ]
 }

@@ -5,6 +5,7 @@ const ADD_TEXTAREA = 'ADD_TEXTAREA'
 const SEND_MESSAGE = 'SEND_MESSAGE'
 const MESSAGE_LOADER = 'MESSAGE_LOADER'
 const ERROR_SEND_MESSAGE = 'ERROR_SEND_MESSAGE'
+const CLEAR_MESSAGE_STATUS = 'CLEAR_MESSAGE_STATUS'
 
 const initialState = {
     messageBody: [],
@@ -71,9 +72,16 @@ export const contactPageReducer = (state = initialState, action) => {
             )
         }
         case MESSAGE_LOADER: {
-            let stateCopy = {... state}
+            let stateCopy = {...state}
             stateCopy.messageLoader = true
             stateCopy.messageSendError = false
+            stateCopy.messageStatus = ''
+            return (
+                stateCopy
+            )
+        }
+        case CLEAR_MESSAGE_STATUS: {
+            let stateCopy = {...state}
             stateCopy.messageStatus = ''
             return (
                 stateCopy
@@ -90,3 +98,4 @@ export const onChangeTextAreaAC = (valueTextArea) => ({type: ADD_TEXTAREA, value
 export const onSentAC = () => ({type: SEND_MESSAGE})
 export const onSentErrortAC = () => ({type: ERROR_SEND_MESSAGE})
 export const onClickSendMessageAC = () => ({type: MESSAGE_LOADER})
+export const clearMessageStatusAC = () => ({type: CLEAR_MESSAGE_STATUS})

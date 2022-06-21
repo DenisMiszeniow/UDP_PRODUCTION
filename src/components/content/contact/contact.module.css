@@ -110,6 +110,7 @@
     min-width: 100px;
     float: right;
 }
+
 .messageError {
     color: red!important;
 }

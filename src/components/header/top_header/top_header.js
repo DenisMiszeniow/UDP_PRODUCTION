@@ -20,7 +20,6 @@ const TopHeader = () => {
                 </NavLink>
             </li>
             <li className={styles.last}>
-                <span> тел. городской: +38 (061) 235 18 07</span> 
                 <span>тел. мобильный: +38 (050) 788 76 95</span>
             </li>
 		</ul>

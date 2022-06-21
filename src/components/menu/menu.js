@@ -37,15 +37,26 @@ const Menu = (props) => {
                     )
                     }
                 </ul>}
-                <li onClick={onClickServices}><span>Услуги</span></li>
+                <li onClick={onClickServices} className={(navData) => navData.isActive ? styles.active : ""}><span>Услуги</span></li>
                 {showServices && <ul className={styles.submenu}>
-                    <li><a href='#' >Сварочные работы</a></li>
-                    <li><a href='#' >Порезка металла</a></li>
+                {props.services.map(
+                        (service) => {
+                            return (
+                                <li>
+                                    <NavLink to={`/${service.endPoint}`} onClick={closeMenu} className={(navData) => navData.isActive ? styles.active : ""} >
+                                        {service.serviceName}
+                                    </NavLink>
+                                </li>
+                            )
+                        }
+                    )
+                    }
+                    {/* <li><a href='#' >Порезка металла</a></li>
                     <li><a href='#' >Токарные работы</a></li>
                     <li><a href='#' >Фрезерные работы</a></li>
                     <li><a href='#' >Сверлильные работы</a></li>
                     <li><a href='#' >Вальцовочные работы</a></li>
-                    <li><a href='#' >Слесарные работы</a></li>
+                    <li><a href='#' >Слесарные работы</a></li> */}
                 </ul>}
                 <li><NavLink to={'/dostavkaoplata'} onClick={closeMenu} className={(navData) => navData.isActive ? styles.active : ""} title="Доставка и Оплата">Доставка и Оплата</NavLink></li>
                 <li><NavLink to={'/kontakt'} onClick={closeMenu} className={(navData) => navData.isActive ? styles.active : ""} title="Контакты">Контакты</NavLink></li>

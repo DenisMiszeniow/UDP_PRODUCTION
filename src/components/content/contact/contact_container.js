@@ -1,7 +1,7 @@
 
 import React from "react"
 import { connect } from "react-redux"
-import { onChangeNameAC, onChangeEmailAC, onChangeSubjectAC, onChangeTextAreaAC, onSentAC, onClickSendMessageAC, onSentErrortAC } from "../../../redux/contact_page_reducer"
+import { onChangeNameAC, onChangeEmailAC, onChangeSubjectAC, onChangeTextAreaAC, onSentAC, onClickSendMessageAC, onSentErrortAC, clearMessageStatusAC } from "../../../redux/contact_page_reducer"
 import ContactPage from "./contact"
 
 
@@ -33,7 +33,8 @@ export const mapDispatchToProps = (dispatch) => {
             updateTextAreaInput: React.createRef(),
             onSentMessage: () => {dispatch(onSentAC())},
             onSentMessageError: () => {dispatch(onSentErrortAC())},
-            onClickSendMessage: () => {dispatch(onClickSendMessageAC())}
+            onClickSendMessage: () => {dispatch(onClickSendMessageAC())},
+            clearMessageStatus: () => {dispatch(clearMessageStatusAC())}
         }
     )
 }
