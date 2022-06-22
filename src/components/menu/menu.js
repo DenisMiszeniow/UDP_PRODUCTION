@@ -3,8 +3,6 @@ import { useState } from 'react'
 import { NavLink } from 'react-router-dom'
 import React from 'react'
 
-
-
 const Menu = (props) => {
     const [showProducts, setShowProducts] = useState(false)
     const [showServices, setShowServices] = useState(false)
@@ -17,7 +15,6 @@ const Menu = (props) => {
             if (showProducts) setShowProducts(false)
         }
     const closeMenu = () => props.handleClick()
-
     return (
         <div className={styles.menu}>
             <ul>
@@ -51,12 +48,6 @@ const Menu = (props) => {
                         }
                     )
                     }
-                    {/* <li><a href='#' >Порезка металла</a></li>
-                    <li><a href='#' >Токарные работы</a></li>
-                    <li><a href='#' >Фрезерные работы</a></li>
-                    <li><a href='#' >Сверлильные работы</a></li>
-                    <li><a href='#' >Вальцовочные работы</a></li>
-                    <li><a href='#' >Слесарные работы</a></li> */}
                 </ul>}
                 <li><NavLink to={'/dostavkaoplata'} onClick={closeMenu} className={(navData) => navData.isActive ? styles.active : ""} title="Доставка и Оплата">Доставка и Оплата</NavLink></li>
                 <li><NavLink to={'/kontakt'} onClick={closeMenu} className={(navData) => navData.isActive ? styles.active : ""} title="Контакты">Контакты</NavLink></li>
