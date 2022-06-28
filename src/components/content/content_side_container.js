@@ -6,7 +6,7 @@ import ContentSide from "./content_side"
 export const mapStateToProps = (state) => {
     return (
         {
-            serviseId: state.serviceItem.serviceItems
+            serviseId: state.serviceItem.menuItems
         }
     )
 }

@@ -36,12 +36,12 @@ const Menu = (props) => {
                 </ul>}
                 <li onClick={onClickServices} className={(navData) => navData.isActive ? styles.active : ""}><span>Услуги</span></li>
                 {showServices && <ul className={styles.submenu}>
-                {props.services.map(
+                {props.menuItems.map(
                         (service) => {
                             return (
                                 <li>
                                     <NavLink to={`/${service.endPoint}`} onClick={closeMenu} className={(navData) => navData.isActive ? styles.active : ""} >
-                                        {service.serviceName}
+                                        {service.item}
                                     </NavLink>
                                 </li>
                             )
