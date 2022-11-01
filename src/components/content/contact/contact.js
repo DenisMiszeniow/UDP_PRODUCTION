@@ -31,12 +31,12 @@ const ContactPage = (props) => {
         e.preventDefault()
         emailjs.sendForm('service_vx9a5cz', 'template_cngc31m', form.current, 'rB9N2zoV8qvOchXfR')
             .then((result) => {
-                console.log(result.text)
+                // console.log(result.text)
                 props.onSentMessage()
                 setTimeout(() => props.clearMessageStatus(), 5000)
                 
             }, (error) => {
-                console.log(error.text)
+                // console.log(error.text)
                 props.onSentMessageError()
             })
     }

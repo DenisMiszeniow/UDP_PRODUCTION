@@ -4,6 +4,7 @@ import Service from "./service_item"
 import React from "react"
 import { setServicesAC } from "../../../redux/services_reducer"
 
+
 class ServiceAsync extends React.Component {
     componentDidMount() {
         fetch('./assets/json/services.json')

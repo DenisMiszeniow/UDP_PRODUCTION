@@ -21,34 +21,10 @@ const initialState = {
 export const contactPageReducer = (state = initialState, action) => {
 
     switch(action.type) {
-        case ADD_NAME: {
-            let stateCopy = {...state}
-            stateCopy.nameInput = action.valueName
-            return (
-                stateCopy
-            )
-        }
-        case ADD_EMAIL: {
-            let stateCopy = {...state}
-            stateCopy.emailInput = action.valueEmail
-            return (
-                stateCopy
-            )
-        }
-        case ADD_SUBJECT: {
-            let stateCopy = {...state}
-            stateCopy.subjectInput = action.valueSubject
-            return (
-                stateCopy
-            )
-        }
-        case ADD_TEXTAREA: {
-            let stateCopy = {...state}
-            stateCopy.textArea = action.valueTextArea
-            return (
-                stateCopy
-            )
-        }
+        case ADD_NAME: return ({...state, nameInput: action.valueName})
+        case ADD_EMAIL: return ({...state, emailInput: action.valueEmail})
+        case ADD_SUBJECT: return ({...state, subjectInput: action.valueSubject})
+        case ADD_TEXTAREA: return ({...state, textArea: action.valueTextArea})
         case SEND_MESSAGE: {
             let stateCopy = {...state}
             stateCopy.nameInput = ''
@@ -80,13 +56,7 @@ export const contactPageReducer = (state = initialState, action) => {
                 stateCopy
             )
         }
-        case CLEAR_MESSAGE_STATUS: {
-            let stateCopy = {...state}
-            stateCopy.messageStatus = ''
-            return (
-                stateCopy
-            )
-        }
+        case CLEAR_MESSAGE_STATUS: return ({...state, messageStatus: ''})
         default: return state
     }
 }

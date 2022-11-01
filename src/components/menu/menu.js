@@ -15,6 +15,7 @@ const Menu = (props) => {
             if (showProducts) setShowProducts(false)
         }
     const closeMenu = () => props.handleClick()
+    
     return (
         <div className={styles.menu}>
             <ul>

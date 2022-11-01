@@ -8,11 +8,10 @@ const initialState = {
     productItemsTractor: [],
     productItemsWire: [],
 }
-
 export const productItemReducer = (state = initialState, action) => {
     switch(action.type) {
         case SET_MOTOBLOCK_UNITS: {
-            const stateCopy = {...state, ...state.productItemsMotoblock}
+            const stateCopy = {...state, productItemsMotoblock: action.motoblockItems}
             stateCopy.productItemsMotoblock = action.motoblockItems
             return stateCopy
         }
